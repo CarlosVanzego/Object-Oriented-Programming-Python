@@ -35,6 +35,7 @@ s3 = Student("Robert", 22, 82)
 course = Course("Science", 2)
 course.add_student(s1)
 course.add_student(s3)
+
 # This will print the name of the student.
 # print(course.students[0].name)
 

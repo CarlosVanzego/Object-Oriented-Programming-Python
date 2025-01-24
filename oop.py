@@ -2,7 +2,7 @@
 
 # This is a Class called "Wolf"
 class Wolf:
-    # This method '__init__' allows me to instantiate the Object right when it is created. This will be called whenever I call 'Wolf'. Inside this I am passing the Attributes 'self', 'name' and 'age'.
+    # This method '__init__' allows me to instantiate (creating a new instance of a class, or object, from a class template) the Object right when it is created. This will be called whenever I call 'Wolf'. Inside this I am passing the Attributes 'self' (the actuall instance of the class), 'name' and 'age'.
     def __init__(self, name, age):
         # This line creates and Attribute of the Class 'Wolf' which is 'name'.
         self.name = name
