@@ -17,7 +17,7 @@ getWage(baseSalary, overtime, rate);
 
 
 
-// Below is an example of an Object-Oriented way tto solve the same problem.
+// Below is an example of an Object-Oriented way to solve the same problem.
 // Instead of having the 3 variables and then the function, I can have an 'employee' object with 3 properties and the method 'getWage':
 
 let employee = {

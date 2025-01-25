@@ -1,44 +1,31 @@
-# Using multiple Classes in OOP in Python
+# Object Oriented Programming in Python
 
-class Student:
-      def __init__(self, name, age, grade):
-          self.name = name
-          self.age = age
-          self.grade = grade 
-
-      def get_grade(self):
-          return self.grade
-
-class Course:
-    def __init__(self, name, max_students):
-         self.name = name
-         self.max_students = max_students
-         self.students = []
-
-    def add_student(self, student):
-         if len(self.students) < self.max_students:
-              self.students.append(student)
-              return True
-         return False
+# This is a Class called "Wolf"
+class Wolf:
+    # This method '__init__' allows me to instantiate (creating a new instance of a class, or object, from a class template) the Object right when it is created. This will be called whenever I call 'Wolf'. Inside this I am passing the Attributes 'self' (the actuall instance of the class), 'name' and 'age'.
+    def __init__(self):
+        # This line creates and Attribute of the Class 'Wolf' which is 'name'.
+        self.name = 'Carlos'
+        self.age = 28
+    # This is a method called 'get_name' that I can use to get the name of the wolf.
+    def get_name(self):
+          return self.name
     
-    def get_average_grade(self):
-        value = 0
-        for student in self.students:
-              value += student.get_grade()
+    def get_age(self):
+         return self.age
+    
+    # this is a method called 'set_age' that I can use to set the age of the wolf. I can use methods to modify or change Attributes.
+    # def set_age(self, age):
+    #      self.age = age
 
-        return value / len(self.students)
 
-s1 = Student("Carlos", 28, 88) 
-s2 = Student("Taylor", 26, 90) 
-s3 = Student("Robert", 22, 82) 
+# # This is a variable called "w" that I am assigning to an instance of the Class "Wolf"; This is me instantiating(creating a new instance) of the class Wolf; "w" then becomes an Object of type "Wolf".
+w = Wolf()
+print(f"My name is {w.get_name()} and I am {w.get_age()} years old")
 
-course = Course("Science", 2)
-course.add_student(s1)
-course.add_student(s3)
 
-# This will print the name of the student.
-# print(course.students[0].name)
+wolves = Wolf()
+wolves.name="los"
+wolves.age=100
 
-# This will print the average grade of the students.
-print(course.get_average_grade())
-
+print(f"this is the new name {wolves.get_name()} and this is the new age {wolves.get_age()}")

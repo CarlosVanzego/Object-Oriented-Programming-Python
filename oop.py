@@ -3,7 +3,7 @@
 # This is a Class called "Wolf"
 class Wolf:
     # This method '__init__' allows me to instantiate (creating a new instance of a class, or object, from a class template) the Object right when it is created. This will be called whenever I call 'Wolf'. Inside this I am passing the Attributes 'self' (the actuall instance of the class), 'name' and 'age'.
-    def __init__(self, name, age):
+    def __init__(self, name="Carlos", age=28):
         # This line creates and Attribute of the Class 'Wolf' which is 'name'.
         self.name = name
         self.age = age
@@ -18,8 +18,14 @@ class Wolf:
     def set_age(self, age):
          self.age = age
 
-# # This is a variable called "w" that I am assigning to an instance of the Class "Wolf"; This is me instantiating(creating a new instance) of the class Wolf; "w" then becomes an Object of type "Wolf".
-# w = Wolf()
+
+# This is a variable called "w" that I am assigning to an instance of the Class "Wolf"; This is me instantiating(creating a new instance) of the class Wolf; "w" then becomes an Object of type "Wolf".
+w = Wolf()
+print(w.get_name())
+
+w2 = Wolf("anything", 2)
+print(f"new name {w2.get_name()} and new age {w2.get_age()}")
+
 # # This is me using a method on the instance of the Class 'howl'
 # w.howl()   
 # #prints <class '__main__.Wolf'>  
