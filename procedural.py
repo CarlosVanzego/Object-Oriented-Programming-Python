@@ -15,6 +15,6 @@ width_input = float(input("Enter width: "))
 # then I set the 'result' variable equal to the 'calculate_area' function and passing the 'length_input' and 'width_input' variables that I created before.
 result = calculate_area(length_input, width_input)
 # then I am printing "Rectangle_area: " and the result of the calculation of the length by the width.
-print("Rectanlge area: ", result)
+print("Rectangle area: ", result)
 
   
