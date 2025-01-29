@@ -30,5 +30,4 @@ class PrivateBathroom:
 
 NiceBath = PrivateBathroom()
 NiceBath.get_toilet()
-print(F"This bathroom is much nicer.. it has a {NiceBath.get_toilet()} toilet..🚽")
-# print(f"This private bathroom is much nicer.. It has a {NiceBath.__private_toilet()} toilet.")    
+print(f"This bathroom is much nicer.. it has a {NiceBath.get_toilet()} toilet..🚽")
