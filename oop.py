@@ -39,3 +39,23 @@ print(f"new name {w2.get_name()} and new age {w2.get_age()}")
 
 # This is typically how Class' work. I name the Class (usually starts with uppercase and in CamelCase), then I define different methods and operations that can be performed by the Object.
 # In OOP, once you create a Class, you can have an infinite number of instances of that Class without having to change anything.
+
+
+# this is a class I called controller
+class Controller:
+    #  this is the constructor method with the arguments "self", "trigggers", "analogs", "touchpad", and "buttons" which I set equal to "8"
+     def __init__(self, triggers, analogs, touchpad, buttons="8"):
+          # this pas does nothing, it ensures the function does ont break by remaining syntatically correct.   
+          pass
+    #  this is a method called button with the arguments "self", "triangle", "circle", "x", and "square".
+     def press_button(self, triangle, circle,x, square):
+            # This line creates and Attribute of the Class 'Controller' which is 'triangle'.
+            self.triangle = triangle 
+            # This line creates and Attribute of the Class 'Controller' which is 'circle'.
+            self.circle = circle
+            # This line creates and Attribute of the Class 'Controller' which is 'x'.
+            self.x = x
+            # This line creates and Attribute of the Class 'Controller' which is 'square'.
+            self.square = square
+
+
