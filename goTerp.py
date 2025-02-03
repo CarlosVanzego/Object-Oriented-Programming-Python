@@ -14,9 +14,9 @@ def draw_square(size):
     # I'm using a for loop to draw the square.
     for _ in range(4):
         # I am using the forward method (fd) to move the turtle forward by the size of the square.
-        t.fd(size)
+        t.forward(size)
         # I am using the right method (rt) to turn the turtle 90 degress to the right. 
-        t.rt(90)
+        t.left(90)
         
 # then I am calling the function "draw_square" and passing the argument "100" to the function because the sqaure is 100 pixels.
 draw_square(100) 
