@@ -8,3 +8,9 @@ def draw_square():
 
     draw_square()
 
+def func(a, b):
+    s = a + b
+    return s  
+
+print(func(4, 4)) 
+
