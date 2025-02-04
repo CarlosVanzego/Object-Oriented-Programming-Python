@@ -40,5 +40,5 @@ for x in range(8):
 c = {"a": 1, "b": 2, "c": 3, "d": 4}
 # I created a for loop that iterates through the "c" dictionary. c.items() returns a list of tuples. Each tuple contains a key-value pair.
 for key, value in c.items():
-    # I am printing the key and value of the dictionary.
+    # I am printing the key and value of the dictionary. 
     print(key, value)
