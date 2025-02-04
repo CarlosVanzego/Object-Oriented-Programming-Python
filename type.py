@@ -1,8 +1,7 @@
 # Type Keyword
 # The built-in function type() returns the type of an object. In Python3, everything is an object and thus an instance of a class. Therefore, the built-in function type() can be used to return the class type of the passed variable.
 # Ex
-
-
+# 
 # output: <class 'int'> because I passed an integer.
 type(4)
 print(type(4))
@@ -16,8 +15,8 @@ type({"age": 28})
 print(type({"age": 28}))
 
 # output: <class 'list'> because I passed a list.
-type((1,2,3,4))
-print(type(1,2,3,4))
+type([1,2,3,4])
+print(type([1,2,3,4]))
 
 # output: <class 'float'> because I passed a float.
 type(2.0)
@@ -30,5 +29,9 @@ print(type(True))
 # output: <class 'NonneType'> because I passed None.
 type(None)
 print(type(None))
+
+# output: <class 'tuple> because I passed a tuple.
+type((10,9,8))
+print(type((10,9,8)))
 
 
