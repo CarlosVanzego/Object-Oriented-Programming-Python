@@ -12,6 +12,10 @@ for x in fruits:
     # I am printing the value of x.
     print(x)
 
+movies = ["The Matrix", "The Dark Knight", "Star Wars: The Clone Wars", "Den of Thieves"]
+for x in movies:
+    print(x)    
+
 
 # String:
 # A string is a collection of characters. Strings are defined by having values between single or double quotes. Strings are immutable, meaning that the values inside the string cannot be changed.
@@ -22,6 +26,9 @@ for x in "Apple":
     # This will print each character in the string "Apple".
     print(x)
 
+for x in "The Matrix":
+    print(x)    
+
 # Range Function:
 # The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
 # Ex.
@@ -29,6 +36,9 @@ for x in "Apple":
 # I am using the range function to iterate through the numbers 0-7.
 for x in range(8):
     # I am printting the numbers 0-7 indicating the range function is working.
+    print(x)   
+
+for x in range(100):
     print(x)   
 
 
@@ -41,4 +51,9 @@ c = {"a": 1, "b": 2, "c": 3, "d": 4}
 # I created a for loop that iterates through the "c" dictionary. c.items() returns a list of tuples. Each tuple contains a key-value pair.
 for key, value in c.items():
     # I am printing the key and value of the dictionary. 
+    print(key, value)
+
+
+v = {"a": 1, "b": 2}    
+for key, value in v.items():
     print(key, value)
