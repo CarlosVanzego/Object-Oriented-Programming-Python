@@ -34,4 +34,9 @@ print(type(None))
 type((10,9,8))
 print(type((10,9,8)))
 
+# output: <class 'set'> because I passed a set.
+type({1,2,3,4,5,6})
+print(type({1,2,3,4,5,6}))
+
+
 
