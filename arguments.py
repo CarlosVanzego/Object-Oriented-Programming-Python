@@ -1,4 +1,4 @@
-# In Python, information ccan be passed into functions as arguments.
+# In Python, information can be passed into functions as arguments.
 # Arguments are specified after the functions name, inside the parenthesis. You can add multiple arguments by seperating them with a comma.
 # Ex.
 # 
@@ -8,6 +8,10 @@ def printStatement(personName, sport):
   print(personName + " plays " + sport)
 # I am calling the function 'printStatement' and passing in the arguments "Lebron James" and "Basketball".
 printStatement("Lebron James", "Basketball")
+
+def playerStatement(playerName, team):
+  print(playerName + " plays " + "for" + " the " + team)
+playerStatement("Micah Parsons", "Dallas Cowboys")
 
 
 
@@ -22,4 +26,9 @@ def findYoungestKid(*kids):
   print("The youngest kid is " + kids[3])
 # Then I am calling the function 'findYoungestKid' and passing in the arguments "Carlos", "Taylor", "Robert", and "Nia".
 findYoungestKid("Carlos", "Taylor", "Robert", "Nia")
+
+
+def findEldestChild(*children):
+   print("The eldest kid is " + children[0])
+findEldestChild("Carlos", "Taylor", "Robert", "Nia")   
 
