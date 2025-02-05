@@ -10,10 +10,16 @@ numbers.sort()
 print(numbers)
 
 
-words = ["This", "is", "a", "list", "of", "words"]
+vegetables = ["zucchini", "broccoli", "onion", "potato", "brussel", "carrot"]
 
-words.sort()
-print(words)
+vegetables.sort()
+print(vegetables)
+
+
+mandalorian =["grogu", "darksaber", "force", "space", 'bounty hunter']
+
+mandalorian.sort()
+print(mandalorian)
 
 
 # To sort a list in descending order, a parameter reverse=True is passed as shown in the below example:
