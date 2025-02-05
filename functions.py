@@ -14,3 +14,8 @@ def func(a, b):
 
 print(func(4, 4)) 
 
+def practice_function():
+    t = 2 * 2
+    return t
+    
+print(practice_function())
