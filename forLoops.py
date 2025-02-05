@@ -12,8 +12,12 @@ for x in fruits:
     # I am printing the value of x.
     print(x)
 
-movies = ["The Matrix", "The Dark Knight", "Star Wars: The Clone Wars", "Den of Thieves"]
+movies = ["The Matrix", "The Dark Knight", "Up", "Den of Thieves"]
 for x in movies:
+    print(x)   
+
+games = ["Assassins Creed", "Call of Duty", "Halo", "Gears of War"] 
+for x in games:
     print(x)    
 
 
@@ -27,6 +31,9 @@ for x in "Apple":
     print(x)
 
 for x in "The Matrix":
+    print(x)   
+
+for x in "Halo":
     print(x)    
 
 # Range Function:
@@ -38,8 +45,12 @@ for x in range(8):
     # I am printting the numbers 0-7 indicating the range function is working.
     print(x)   
 
-for x in range(100):
-    print(x)   
+for x in range(12):
+    print(x)
+
+for x in range(14):   
+    print(x) 
+
 
 
 # Dictionaires:
@@ -57,3 +68,8 @@ for key, value in c.items():
 v = {"a": 1, "b": 2}    
 for key, value in v.items():
     print(key, value)
+
+
+h = {"C": 4, "D": 8, "E": 12,}
+for key, value in h.items():
+    print(key,value)    
