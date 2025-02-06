@@ -26,7 +26,7 @@ print(type(2.0))
 type(True)
 print(type(True))
 
-# output: <class 'NonneType'> because I passed None.
+# output: <class 'NoneType'> because I passed None.
 type(None)
 print(type(None))
 
@@ -37,6 +37,12 @@ print(type((10,9,8)))
 # output: <class 'set'> because I passed a set.
 type({1,2,3,4,5,6})
 print(type({1,2,3,4,5,6}))
+
+# output: <class 'frozenset'> because I passed a frozenset. A frozenset is an immutable version of a set. Meaning it is a set thats values can not be changed.
+my_set = {4, 3, 2, 1}
+# I created a variable called 'my_frozenset' and assigned it the 'frozen' class, and passed the 'my_set' variable I created above.
+my_frozenset = frozenset(my_set)
+
 
 
 
