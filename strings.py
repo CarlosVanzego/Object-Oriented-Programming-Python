@@ -9,6 +9,10 @@
 str = "Hello" 
 
 print(str)
+# I assigned the variable 'anotherStr' to the string "Howdy".
+anotherStr = "Howdy🤠"
+# then i'm printing out the string; the output will be "Howdy".
+print(anotherStr)
 
 # String length:
 str = "Hello there."
