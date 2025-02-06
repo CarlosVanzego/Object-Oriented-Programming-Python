@@ -13,6 +13,9 @@ def playerStatement(playerName, team):
   print(playerName + " plays " + "for" + " the " + team)
 playerStatement("Micah Parsons", "Dallas Cowboys")
 
+def singerBand(singerName, band):
+    print(singerName + " is the lead singer of " + band)
+singerBand("Robert Plant", "Led Zeppelin")
 
 
 # Arbitrary Arguments (*args)
