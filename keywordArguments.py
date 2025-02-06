@@ -7,6 +7,13 @@ def findYoungestKid(kid4, kid3, kid2, kid1):
 
 findYoungestKid(kid1 = "Carlos", kid2 = "Taylor", kid3 = "Robert", kid4 = "Nia")  
 
+def findOldestChild(child1, child2, child3, child4):
+  print("The oldest child is " + child1)
+
+findOldestChild(child1 = "Carlos", child2 = "Taylor", child3 = "Robert", child4 = "Nia")  
+
+
+
 
 
 # Arbitrary Keyword Arguments:
