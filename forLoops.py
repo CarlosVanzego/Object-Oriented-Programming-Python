@@ -1,5 +1,5 @@
-# The for loop is used to iterate through the members of a sequence (lists and string) or any iterable object (dictionaries and sets).
-# loop continues until we reach the last item in the sequence. The body of a for loop is seperated from teh rest of the code using indentation.
+# The for loop is used to iterate through the members of a sequence (lists and strings) or any iterable object (dictionaries and sets).
+# loop continues until we reach the last item in the sequence or object. The body of a for loop is seperated from the rest of the code using indentation.
 
 # List:
 # A list is a collection of items that are ordered aand changeable. Lists are defined by having values between saquare brackets []. Lists are mutable, meaning that the values inside the list can be changed.
@@ -20,6 +20,8 @@ games = ["Assassins Creed", "Call of Duty", "Halo", "Gears of War"]
 for x in games:
     print(x)    
 
+wands = ["Elm", "Cherry", "Alder", "Chestnut"]   
+
 
 # String:
 # A string is a collection of characters. Strings are defined by having values between single or double quotes. Strings are immutable, meaning that the values inside the string cannot be changed.
@@ -36,6 +38,9 @@ for x in "The Matrix":
 for x in "Halo":
     print(x)    
 
+for x in "Elm":
+    print(x)    
+
 # Range Function:
 # The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
 # Ex.
@@ -50,6 +55,9 @@ for x in range(12):
 
 for x in range(14):   
     print(x) 
+
+for x in range(24):
+    print(x)    
 
 
 
@@ -73,3 +81,9 @@ for key, value in v.items():
 h = {"C": 4, "D": 8, "E": 12,}
 for key, value in h.items():
     print(key,value)    
+
+
+
+i = {"x":24, "y": 25, "z": 26}     
+for key, value in i.items():
+    print(key, value)
