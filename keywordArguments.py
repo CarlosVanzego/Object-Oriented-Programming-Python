@@ -12,6 +12,10 @@ def findOldestChild(child1, child2, child3, child4):
 
 findOldestChild(child1 = "Carlos", child2 = "Taylor", child3 = "Robert", child4 = "Nia")  
 
+def whatMovieIsThis(movie1, movie2, movie3):
+  print("This movie is called " + movie3)
+
+whatMovieIsThis(movie1 = "The Matrix", movie2 = "Planet of the Apes", movie3 = "Snakes on a Plane")  
 
 
 
