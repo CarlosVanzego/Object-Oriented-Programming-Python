@@ -1,10 +1,10 @@
 # Sets
-# Sets are used to store multiple items in a siungle variable just like a list, but they cannot have duplicate values. To create a Set, elements are placed inside curly braces "{}".
+# Sets are used to store multiple items in a single variable just like a list, but they cannot have duplicate values. To create a Set, elements are placed inside curly braces "{}".
 # A few characteristics of Sets:
 # Sets do not have a proper order. The items in a set are arranged in a random order.
 # The items in a Set do not have an index.
 # Sets cannot have two items with the same value.
-# Sets are used when you want to store a set of unique values and perform venn diagram like operations on it for example union, intersection etc.
+# Sets are used when you want to store a set of unique values and perform venn diagram like operations on it, for example union, intersection, etc.
 # 
 # Sets cannot have duplicates as illustrated below:
 
@@ -27,6 +27,8 @@ print(set3)
 
 fruits = {"blackberry", "apple", "strawberry"}
 companies = {"microsoft", "google", "apple"}
+presidents = {"Obama", "Trump", "Clinton"}
+print(presidents)
 
 common = fruits.intersection(companies)
 print(common)
