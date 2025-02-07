@@ -22,3 +22,6 @@ print(practice_function())
 # This is a function called 'spell_name'. I have pass on the line beneath the function declaration to keep it syntactically correct.
 def spell_name():
     pass
+# this is a function I called 'made_up_function'.
+def made_up_function():
+    pass
