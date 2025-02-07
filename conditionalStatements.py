@@ -12,8 +12,8 @@
 # If the previous if and elif condition fails, then the else keyword is used.
 # Ex.
 # 
-c = 400
-v = 14
+c = 7
+v = 7
 
 if v > c:
   print("v is greater than c")
@@ -21,4 +21,3 @@ elif c == v:
   print("c and v are equal")
 else:
   print("c is greater than v")
-    
