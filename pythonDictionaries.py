@@ -1,30 +1,29 @@
 # Python Dictionaires
-# Dictionaires are used to store data in key:value pairs, unlike other data tpes (list, set, etc) where you usually hold only a songle value as an element.
+# Dictionaires are used to store data in key:value pairs, unlike other data types (list, set, etc) where you usually hold only a single value as an element.
 
 # In Python a dictionary can be created with curly braces "{}", seperated by a comma.
 
-# Few characterisitcs of Dictionaries:
+# Few characteristics of Dictionaries:
 # The items in a dictionary follow a proper order.
-# A dictionary is not a sequence, so the order isnt officially preserved.
+# A dictionary is not a sequence, so the order isn't officially preserved.
 
-# Dictionary items are presented in key:value pars, as shown below:
+# Dictionary items are presented in key:value pairs, as shown below:
 # Ex.
 # 
 sampleDict = {
-  "sport": "Basketball",
-  "player": "Lebron James",
-  "team": "LA Lakers"
+  "sport": "Football",
+  "player": "Dak Prescott",
+  "team": "Dallas Cowboys"
   }
 
-print(sampleDict["sport"])
+print(sampleDict["player"])
 
 
 
 sampleDict = {
-  "sport": "Football",
-  "player": "Cee Dee Lamb",
-  "team": "Dallas Cowboys"
+  "sport": "tennis",
+  "player": "Serena Williams",
 }
 
-sampleDict["age"] = 25
+sampleDict["age"] = 43
 print(sampleDict)
