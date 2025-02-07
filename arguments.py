@@ -17,6 +17,10 @@ def singerBand(singerName, band):
     print(singerName + " is the lead singer of " + band)
 singerBand("Robert Plant", "Led Zeppelin")
 
+def foodFunction(personName, foodType):
+   print(personName + " loves " + foodType)
+foodFunction("Los", "pizza")   
+
 
 # Arbitrary Arguments (*args)
 # If you do not know how many arguments that will be passed into the function, an asterisk (*) can be placed before the parameter name in the function's definition. This feature allows Python to accomodate function calls with any variable number of arguments.
