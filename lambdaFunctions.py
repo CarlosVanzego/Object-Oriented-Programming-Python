@@ -31,10 +31,10 @@ print(greet("Los"))
 
 # Example with a regular function.
 # I defined a function called 'name' with no parameters.
-def name():
+def hiName():
   # Inside the function I created a variable 'name' and assigned it the string "Carlos"
   name = "Carlos"
   # I then print the string "Hello There. " concatenated with the name variable.
   print("Hello There. " + name)
 # finally i'm calling the name function to execute it.
-name()
+hiName()
