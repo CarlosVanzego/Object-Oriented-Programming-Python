@@ -21,3 +21,20 @@ print(sum(20))
 multiply = lambda a, b : a * b
 
 print(multiply(8, 8))
+
+
+# I created a variable named 'greet' and assigned it a lambda function that takes a single argument, 'name'.
+# The lambda function returns the string "Hello" concatenanted with the provided 'name' argument.
+greet = lambda name: "Hello " + name
+# then I call the 'greet' function with the argument "Los" and print the returned value; the output will be "Hello Los"
+print(greet("Los"))
+
+# Example with a regular function.
+# I defined a function called 'name' with no parameters.
+def name():
+  # Inside the function I created a variable 'name' and assigned it the string "Carlos"
+  name = "Carlos"
+  # I then print the string "Hello There. " concatenated with the name variable.
+  print("Hello There. " + name)
+# finally i'm calling the name function to execute it.
+name()
