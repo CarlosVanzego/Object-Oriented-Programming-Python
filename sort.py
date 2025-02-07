@@ -27,6 +27,11 @@ games.sort()
 print(games)
 
 
+brands = ["gucci", "polo", "hermes"]
+
+brands.sort()
+print(brands)
+
 # To sort a list in descending order, a parameter reverse=True is passed as shown in the below example:
 # 
 numbers = [4, 2, 1, 3]
