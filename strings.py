@@ -14,10 +14,16 @@ anotherStr = "Howdy🤠"
 # then i'm printing out the string; the output will be "Howdy".
 print(anotherStr)
 
+tgif = "Thank GOD it's Friday📆"
+print(tgif)
+
 # String length:
 str = "Hello there."
 
 print(len(str))
+
+tgif = "Thank GOD it's Friday📆"
+print(len(tgif))
 
 # String concatenation:
 word1 = "Hello"
