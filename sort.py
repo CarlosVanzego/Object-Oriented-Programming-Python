@@ -26,10 +26,11 @@ games = ["Link", "Mario", "Zelda"]
 games.sort()
 print(games)
 
-
+# this is a list I called 'brands' and assigned the list of items containing "gucci", "polo", "hermes".
 brands = ["gucci", "polo", "hermes"]
-
+# I am using the sort() method on the brands list to sort the items in the list in ascending order.
 brands.sort()
+# then I am printing the brands list.
 print(brands)
 
 # To sort a list in descending order, a parameter reverse=True is passed as shown in the below example:
