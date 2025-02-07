@@ -45,4 +45,10 @@ my_frozenset = frozenset(my_set)
 
 
 
+# I created a variable called 'randomType' and assigned it the value 'type(14)' which is an instance of the 'type' class and I am passing the integer 14.
+randomType = type(14)
+# the output will be <class 'int'>
+print(type(14))
+
+
 
