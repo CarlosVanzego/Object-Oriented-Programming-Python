@@ -1,5 +1,5 @@
 # The for loop is used to iterate through the members of a sequence (lists and strings) or any iterable object (dictionaries and sets).
-# loop continues until we reach the last item in the sequence or object. The body of a for loop is seperated from the rest of the code using indentation.
+# loops continue until we reach the last item in the sequence or object. The body of a for loop is seperated from the rest of the code using indentation.
 
 # List:
 # A list is a collection of items that are ordered aand changeable. Lists are defined by having values between saquare brackets []. Lists are mutable, meaning that the values inside the list can be changed.
@@ -20,7 +20,15 @@ games = ["Assassins Creed", "Call of Duty", "Halo", "Gears of War"]
 for x in games:
     print(x)    
 
-wands = ["Elm", "Cherry", "Alder", "Chestnut"]   
+wands = ["Elm", "Cherry", "Alder", "Chestnut"]  
+for x in wands:
+    print(x)
+# This is a variable named 'sportingBrands' that I assigned a list of strings too.
+sportingBrands = ["Nike", "Adidas", "Under Armour", "Puma"]  
+# Them I am using a for loop to iterate through the list
+for x in wands:
+    # then I am printing the contents of the list. The output will be "["Nike", "Adidas", "Under Armour", "Puma"]"
+    print(x)
 
 
 # String:
@@ -41,13 +49,18 @@ for x in "Halo":
 for x in "Elm":
     print(x)    
 
+# this is a for loop to iterate through the characters within the "Puma" item in the 'sportingBrands' list.
+for x in "Puma":
+    # then I am printing out the characters. The output will be "P u m a".
+    print(x)    
+
 # Range Function:
 # The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
 # Ex.
 # 
 # I am using the range function to iterate through the numbers 0-7.
 for x in range(8):
-    # I am printting the numbers 0-7 indicating the range function is working.
+    # I am printing the numbers 0-7 indicating the range function is working.
     print(x)   
 
 for x in range(12):
@@ -57,7 +70,12 @@ for x in range(14):
     print(x) 
 
 for x in range(24):
-    print(x)    
+    print(x)   
+# this is a for loop that i am using the range function in, to iterate through the numbers 0-3.
+for x in range(3):
+    # then I am printing the numbers 0-3.
+    print(x)   
+     
 
 
 
@@ -86,4 +104,9 @@ for key, value in h.items():
 
 i = {"x":24, "y": 25, "z": 26}     
 for key, value in i.items():
+    print(key, value)
+
+
+d = {"o":24, "p": 25, "p": 26}    
+for key, value in d.items():
     print(key, value)
