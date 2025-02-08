@@ -11,20 +11,20 @@ type("Hello there.")
 print(type("Hello there."))
 
 # output: <class 'dict'> because I passed a dictionary.
-type({"age": 28})
-print(type({"age": 28}))
+type({"age": 24})
+print(type({"age": 24}))
 
 # output: <class 'list'> because I passed a list.
-type([1,2,3,4])
-print(type([1,2,3,4]))
+type([1,2,3,4,5])
+print(type([1,2,3,4,5]))
 
 # output: <class 'float'> because I passed a float.
-type(2.0)
-print(type(2.0))
+type(4.0)
+print(type(4.0))
 
 # output: <class 'bool> because I passed a boolean.
-type(True)
-print(type(True))
+type(False)
+print(type(False))
 
 # output: <class 'NoneType'> because I passed None.
 type(None)
@@ -39,16 +39,17 @@ type({1,2,3,4,5,6})
 print(type({1,2,3,4,5,6}))
 
 # output: <class 'frozenset'> because I passed a frozenset. A frozenset is an immutable version of a set. Meaning it is a set thats values can not be changed.
-my_set = {4, 3, 2, 1}
-# I created a variable called 'my_frozenset' and assigned it the 'frozen' class, and passed the 'my_set' variable I created above.
+my_set = {10, 4, 7, 1 ,8 , 6}
+# I created a variable called 'my_frozenset' and assigned it the 'frozenset' class, and passed the 'my_set' variable I created above.
 my_frozenset = frozenset(my_set)
+print(my_set)
 
 
 
 # I created a variable called 'randomType' and assigned it the value 'type(14)' which is an instance of the 'type' class and I am passing the integer 14.
-randomType = type(14)
+randomType = type("Hi")
 # the output will be <class 'int'>
-print(type(14))
+print(type("Hi"))
 
 
 
