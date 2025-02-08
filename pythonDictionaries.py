@@ -11,9 +11,9 @@
 # Ex.
 # 
 sampleDict = {
-  "sport": "Football",
-  "player": "Dak Prescott",
-  "team": "Dallas Cowboys"
+  "sport": "Boxing",
+  "player": "Floyd Mayweather",
+  "team": "Mayweather Promotions"
   }
 
 print(sampleDict["player"])
