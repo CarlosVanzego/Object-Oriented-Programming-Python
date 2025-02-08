@@ -23,3 +23,8 @@ heapq.heapify(li)
 print("The created heap is : ",(list(li)))
 
 # output: The created heap is : [1, 3, 9, 7, 5]
+
+# TIME COMPLEXITY
+# Access Max/Min - O(1)
+# Insert - O(log(n))
+# Remove Max/Min - O(log(n))
