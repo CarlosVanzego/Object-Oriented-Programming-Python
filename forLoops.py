@@ -2,7 +2,7 @@
 # loops continue until we reach the last item in the sequence or object. The body of a for loop is seperated from the rest of the code using indentation.
 
 # List:
-# A list is a collection of items that are ordered aand changeable. Lists are defined by having values between saquare brackets []. Lists are mutable, meaning that the values inside the list can be changed.
+# A list is a collection of items that are ordered and changeable. Lists are defined by having values between square brackets []. Lists are mutable, meaning that the values inside the list can be changed.
 # Ex.
 # 
 # I created a list called "fruits" and stored the values "blueberry", "banana", "strawberry", and "Apple" inside it. 
@@ -23,11 +23,16 @@ for x in games:
 wands = ["Elm", "Cherry", "Alder", "Chestnut"]  
 for x in wands:
     print(x)
-# This is a variable named 'sportingBrands' that I assigned a list of strings too.
+# This is a variable named 'sportingBrands' that I assigned a list of strings.
 sportingBrands = ["Nike", "Adidas", "Under Armour", "Puma"]  
-# Them I am using a for loop to iterate through the list
+# Them I am using a for loop to iterate through the list.
 for x in wands:
     # then I am printing the contents of the list. The output will be "["Nike", "Adidas", "Under Armour", "Puma"]"
+    print(x)
+
+
+drinks = ["Tea", "Coffee", "Water", "Milk"] 
+for x in drinks:
     print(x)
 
 
@@ -62,18 +67,10 @@ for x in "Puma":
 for x in range(8):
     # I am printing the numbers 0-7 indicating the range function is working.
     print(x)   
-
-for x in range(12):
-    print(x)
-
-for x in range(14):   
-    print(x) 
-
-for x in range(24):
-    print(x)   
-# this is a for loop that i am using the range function in, to iterate through the numbers 0-3.
+ 
+# this is a for loop that i am using the range function in, to iterate through the numbers 0-2.
 for x in range(3):
-    # then I am printing the numbers 0-3.
+    # then I am printing the numbers 0-2.
     print(x)   
      
 
