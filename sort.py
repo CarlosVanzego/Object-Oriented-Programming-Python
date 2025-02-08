@@ -21,10 +21,10 @@ mandalorian = ["grogu", "darksaber", "force", "space", 'bounty hunter']
 mandalorian.sort()
 print(mandalorian)
 
-games = ["Link", "Mario", "Zelda"]
+heroes = ["Link", "Mario", "Zelda"]
 
-games.sort()
-print(games)
+heroes.sort()
+print(heroes)
 
 # this is a list I called 'brands' and assigned the list of items containing "gucci", "polo", "hermes".
 brands = ["gucci", "polo", "hermes"]
@@ -40,7 +40,7 @@ numbers = [4, 2, 1, 3]
 numbers.sort(reverse=True)
 print(numbers)
 
-drinks = ["jameson", "tequila", "rum"]
+alcohol = ["jameson", "tequila", "rum"]
 
-drinks.sort(reverse=True)
-print(drinks)
+alcohol.sort(reverse=True)
+print(alcohol)
