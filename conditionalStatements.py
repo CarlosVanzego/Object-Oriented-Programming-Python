@@ -1,8 +1,8 @@
 # Conditional Statements
-# Conditional statementsin Python are sued to perform different computations based on whether an expression/value evaluates to True or False.
+# Conditional statements in Python are used to perform different computations based on whether an expression/value evaluates to True or False.
 
 # if key word:
-# In this example, we use etwo variables, a and b, which are used as part of the if statements to test whether b is greater than a. As a is 400, and b is 14 we know that 400 is greater than 14, and so we print that "a is grreater than b"
+# In this example, I use two variables, c and v, which are used as part of the if statements to test whether v is greater than c. As c is 400, and v is 7 we know that 400 is greater than 7, and so we print that "c is grreater than v"
 
 # elif keyword:
 
@@ -12,8 +12,8 @@
 # If the previous if and elif condition fails, then the else keyword is used.
 # Ex.
 # 
-c = 7
-v = 7
+c = 8
+v = 8
 
 if v > c:
   print("v is greater than c")
