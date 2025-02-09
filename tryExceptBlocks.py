@@ -10,7 +10,7 @@
 # 
 # The try block will generate an exception, because c is not defined, therefore the code execution moves onto the except block:
 try:
-  print(c)
+  print()
 except:
   # output: An exception occured
   print("An exception occured")  
