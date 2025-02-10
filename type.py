@@ -3,12 +3,12 @@
 # Ex
 # 
 # output: <class 'int'> because I passed an integer.
-type(4)
-print(type(4))
+type(8)
+print(type(8))
 
 # output: <class 'str'> because I passed a string.
-type("Hello there.")
-print(type("Hello there."))
+type("Hello friend.")
+print(type("Hello friend."))
 
 # output: <class 'dict'> because I passed a dictionary.
 type({"age": 24})
