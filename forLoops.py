@@ -36,6 +36,11 @@ for x in drinks:
     print(x)
 
 
+pizzaToppings = ["pepperoni", "cheese", "mushroom"]    
+for x in pizzaToppings:
+    print(x)
+
+
 # String:
 # A string is a collection of characters. Strings are defined by having values between single or double quotes. Strings are immutable, meaning that the values inside the string cannot be changed.
 # Ex.
