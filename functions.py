@@ -25,3 +25,9 @@ def spell_name():
 # this is a function I called 'made_up_function'.
 def made_up_function():
     pass
+
+def dateFunction(dayOfWeek, monthOfYear, dayOfMonth, year):
+
+    dateFunction()
+
+
