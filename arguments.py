@@ -25,6 +25,10 @@ def argumentFunction(arg1, arg2):
     print("This is the first argument -> " + arg1 + ", and this is the second argument -> " + arg2)
 argumentFunction("python", "coder")
 
+def todaysDateFunction(dayOfWeek, monthOfYear, dayOfMonth, year):
+    print("Todays date is " + dayOfWeek + monthOfYear + dayOfMonth + year)
+todaysDateFunction('Monday ', 'February ', '10th ', '2025 ')    
+
 # Arbitrary Arguments (*args)
 # If you do not know how many arguments that will be passed into the function, an asterisk (*) can be placed before the parameter name in the function's definition. This feature allows Python to accomodate function calls with any variable number of arguments.
 # The function will then recieve the arguments as a tuple, enabling it to access each item individually.
