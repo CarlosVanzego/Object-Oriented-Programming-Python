@@ -12,7 +12,7 @@ print(numbers)
 
 vegetables = ["zucchini", "broccoli", "onion", "potato", "brussel", "carrot"]
 
-vegetables.sort()
+vegetables.sort(reverse=True)
 print(vegetables)
 
 
@@ -23,7 +23,7 @@ print(mandalorian)
 
 heroes = ["Link", "Mario", "Zelda"]
 
-heroes.sort()
+heroes.sort(reverse=True)
 print(heroes)
 
 # this is a list I called 'brands' and assigned the list of items containing "gucci", "polo", "hermes".
