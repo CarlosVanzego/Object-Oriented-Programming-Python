@@ -15,7 +15,12 @@ findOldestChild(child1 = "Carlos", child2 = "Taylor", child3 = "Robert", child4 
 def whatMovieIsThis(movie1, movie2, movie3):
   print("This movie is called " + movie1)
 
-whatMovieIsThis(movie1 = "The ⏳ Traveler's 👰🏾‍♀️", movie2 = "🌍 of the 🦍", movie3 = "🐍 on a 🛩️")  
+whatMovieIsThis(movie1 = "The ⏳ Traveler's 👰🏾‍♀️", movie2 = "🌍 of the 🦍", movie3 = "🐍 on a 🛩️") 
+
+def differntJobs(job1, job2, job3, job4):
+  print("The different types of jobs I've had are " + job1 + job2 + job3 + job4)
+
+differntJobs(job1 = "Business Development Representative, ", job2 = "Technical Support Specialist, ", job3 = "Data Analyst ", job4 = "and Software Developer")
 
 
 
