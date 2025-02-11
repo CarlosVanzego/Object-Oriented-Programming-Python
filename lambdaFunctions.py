@@ -22,6 +22,11 @@ multiply = lambda a, b : a * b
 
 print(multiply(8, 4))
 
+divide = lambda c, v : c / v
+
+print(divide(144, 12))
+
+
 
 # I created a variable named 'greet' and assigned it a lambda function that takes a single argument, 'name'.
 # The lambda function returns the string "Hello" concatenanted with the provided 'name' argument.
