@@ -27,3 +27,7 @@ cities = ["Maryland", "florida", "texas"]
 cities.remove("Maryland")
 print(cities)
 
+
+listWithDifferentTypes = ['List', 4, "NO", 'REaSoN', 5.0]
+listWithDifferentTypes.remove("NO")
+print(listWithDifferentTypes)
