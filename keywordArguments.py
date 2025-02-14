@@ -1,4 +1,5 @@
-# Keyword Arguments:
+# Keyword Arguments
+# 
 # Keyword Arguments are arguments that can be passed with the key = value syntax. This way the order of the arguments does not matter. 
 # Ex.
 # 
@@ -20,7 +21,13 @@ whatMovieIsThis(movie1 = "The ⏳ Traveler's 👰🏾‍♀️", movie2 = "🌍 
 def differntJobs(job1, job2, job3, job4):
   print("The different types of jobs I've had are " + job1 + job2 + job3 + job4)
 
-differntJobs(job1 = "Business Development Representative, ", job2 = "Technical Support Specialist, ", job3 = "Data Analyst ", job4 = "and Software Developer")
+differntJobs(job1 = "Business Development Representative, ", job2 = "Technical Support Specialist, ", job3 = "Data Analyst ", job4 = "Software Developer")
+
+
+def airlineAbr(airline1, airline2, airline3):
+  print("A few difffernt airline abbreviations are " + airline1 + " for SouthWest, " + airline2 + " for Jet Blue, and " + airline3 + " for Aviance." )
+airlineAbr(airline1 = "SW", airline2 = "JB", airline3 = "AV")  
+
 
 
 
@@ -31,7 +38,7 @@ differntJobs(job1 = "Business Development Representative, ", job2 = "Technical S
 # Ex.
 # 
 def printLastName(**kid):
-  print("Her middle name is " + kid["mname"])
+  print("My sisters middle name is " + kid["mname"])
 
 printLastName(fname = "Nia", lname = "Hall", mname = "Symone") 
 

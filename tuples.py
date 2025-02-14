@@ -1,7 +1,7 @@
 # Tuples 
 # 
-# A tuple is similar to a list but the main difference is that it's immutable once it's created. You cannot add or remove items in a tuple once you create it.
-# Tuples are typically used when you want the data to remain unchanged throughout the program. It can be indexed jsut like a list and can have duplicates. It can hold multiple data types as well.
+# A tuple is similar to a list but, the main difference is that it's immutable once it's created. You cannot add or remove items in a tuple once you create it.
+# Tuples are typically used when you want the data to remain unchanged throughout the program. It can be indexed just like a list and can have duplicates. It can hold multiple data types as well.
 # To create a Tuple, elements are placed inside these circular parentheses()
  
 # Creating a tuple:
@@ -31,13 +31,13 @@ print(tuesdayTuple)
 my_tuple = (4, "berry", 3.14, True)
 
 # Accessing elements in a tuple:
-print(my_tuple[3])
 print(my_tuple[1])
+print(my_tuple[3])
 
-# Iterating through a tuple:
+# Iterating through the element of my_tuple:
 for x in my_tuple:
     print(x)
-# Another way to iterate through a tuple:
+# Another way to iterate through a tuple (will show the same output):
 for item in my_tuple:
     print(item)   
 

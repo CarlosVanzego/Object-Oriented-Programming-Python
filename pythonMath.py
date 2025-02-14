@@ -7,8 +7,8 @@
 # Note: iterable in Python can mean anythion that you can loop over and has a list of contents for example a list, tuple, set etc.
 # Ex.
 # 
-getMin = min(5, 10, 25)
-getMax = max(5, 10, 25)
+getMin = min(5, 10, 15)
+getMax = max(5, 10, 15)
 
 print(getMin)
 print(getMax)
@@ -16,12 +16,12 @@ print(getMax)
 # abs() function:
 # The abs() function returns the absolute (positive) value of the specified number
 # 
-absValue = abs(-7.25)
+absValue = abs(-4.69)
 
 print(absValue)
 
 # pow() function:
 # The pow(x,y) function returns the value of x to the power of y(x^y)
-x = pow(4,4)
+x = pow(4,2)
 
 print(x)

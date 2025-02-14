@@ -1,11 +1,12 @@
 # Map Function
-# When you want to apply a function over each element of an iterable(list, tuple, set, etc), you can use the map() function. The map() function returns an iterable object after the function has been applied onto the input.
+# 
+# When you want to apply a function over each element of an iterable (list, tuple, set, etc), you can use the map() function. The map() function returns an iterable object after the function has been applied onto the input.
 # 
 # Syntax:
 # map(function, iterable)
 # 
-# Function: it is a function to which map passes each element of a given iiterable.
-# Iterable: It is a data structure which is tto be mapped, can be a list, tuple, set etc.
+# Function: it is a function to which map passes each element of a given iterable.
+# Iterable: It is a data structure which is to be mapped, can be a list, tuple, set etc.
 # 
 def calculateLength(n):
   return len(n)

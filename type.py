@@ -52,4 +52,9 @@ randomType = type("Hi")
 print(type("Hi"))
 
 
+# this is a list I passed with mixed elements; the output will be of type list.
+type(['this', 'is', 'list', 'number', 2])
+print(type(['this', 'is', 'list', 'number', 2]))
+
+
 

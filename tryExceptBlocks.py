@@ -17,7 +17,7 @@ except:
 
 
 
-# Else Key word:
+# 'Else' Key word:
 # Yuoo can use the else keyword tod efine a block of code to be executed if no errors were raised:
 # 
 try:

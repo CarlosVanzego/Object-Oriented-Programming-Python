@@ -1,3 +1,5 @@
+# Functions
+# 
 # Functions are predefined tasks created by the programmer to be used later in a program.
 # They help in breaking down the program into smaller, more modular chunks, making the code more organized and reusable.
 # For example, you can write a function to draw a square and then call this function whenever you need to draw a square, instead of writing the square-drawing code each time.
@@ -29,5 +31,9 @@ def made_up_function():
 def dateFunction(dayOfWeek, monthOfYear, dayOfMonth, year):
 
     dateFunction()
+
+# I defined a function called 'flightDestinations'.
+def flightDestinations():
+    pass    
 
 

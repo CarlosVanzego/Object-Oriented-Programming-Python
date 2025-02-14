@@ -1,8 +1,9 @@
+# For Loop
 # The for loop is used to iterate through the members of a sequence (lists and strings) or any iterable object (dictionaries and sets).
 # loops continue until we reach the last item in the sequence or object. The body of a for loop is seperated from the rest of the code using indentation.
+# 
 
-# List:
-# A list is a collection of items that are ordered and changeable. Lists are defined by having values between square brackets []. Lists are mutable, meaning that the values inside the list can be changed.
+# Using a For Loop to iterate through a List (A list is a collection of items that are ordered and changeable. Lists are defined by having values between square brackets []. Lists are mutable, meaning that the values inside the list can be changed):
 # Ex.
 # 
 # I created a list called "fruits" and stored the values "blueberry", "banana", "strawberry", and "Apple" inside it. 
@@ -40,9 +41,14 @@ pizzaToppings = ["pepperoni", "cheese", "mushroom"]
 for x in pizzaToppings:
     print(x)
 
+# this is a list I called 'berries'; inside I stored various types of berries. 
+berries = ["blueberries", "strawberries", "raspberries", "blackberries"] 
+# then I am using a for loop to iterate though all the elements of the berries list.
+for x in berries:
+    print(x) 
 
-# String:
-# A string is a collection of characters. Strings are defined by having values between single or double quotes. Strings are immutable, meaning that the values inside the string cannot be changed.
+
+# Using a For Loop to iterate through a String (A string is a collection of characters. Strings are defined by having values between single or double quotes. Strings are immutable, meaning that the values inside the string cannot be changed.)
 # Ex.
 # 
 # I am using the "Apple" string from within the "fruits" list and iterating through it using a for loop.
@@ -62,9 +68,14 @@ for x in "Elm":
 # this is a for loop to iterate through the characters within the "Puma" item in the 'sportingBrands' list.
 for x in "Puma":
     # then I am printing out the characters. The output will be "P u m a".
-    print(x)    
+    print(x)  
 
-# Range Function:
+# I created a string "Southwest airlines".
+for x in "Southwest Airlines":
+    # then I am interating through all the characters in the string.
+    print(x)      
+
+# Using a For Loop with the Range Function:
 # The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
 # Ex.
 # 
@@ -78,7 +89,8 @@ for x in range(3):
     # then I am printing the numbers 0-2.
     print(x)   
      
-
+for x in range(300):
+    print(x)
 
 
 # Dictionaires:

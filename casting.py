@@ -1,13 +1,13 @@
 # Casting
 # 
 # If you want to specify the data type of a variable, this can be done with casting.
-# You can overwrite the default data type with the data type of your choice. However, attempting to convert incompatible values, such as coinverting the string 'Messi' into an integer, will result in an error.
+# You can overwrite the default data type with the data type of your choice. However, attempting to convert incompatible values, such as converting the string 'Messi' into an integer, will result in an error.
 # 
-# I'm converting the integer 43 into a string.
-x = str(43)
-# Then I am printing the type of 'x', which should now be <class 'str'>.
+# I'm converting the integer 44 into a string.
+x = str(44)
+# Then I am printing the type of 'x', which will now be <class 'str'>.
 print(type(x))
-# I'm converting the integer 3 explicitly into an integer (redundant but shows casting)
+# I'm converting the integer 3 explicitly into an integer (redundant but shows casting).
 y = int(3)
 # Then i'm printing the type of 'y', which remains <class 'int'>.
 print(type(y))

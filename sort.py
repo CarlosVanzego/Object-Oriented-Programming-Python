@@ -1,3 +1,4 @@
+# Sort
 # The sort() method sorts the elements of a given list in either ascending or descending order. 
 # By default, sort() doesn't require any extra parameters. However, it has two optional parameters:
 # reverse - If 'True', the sorted list is reversed (or sorted in Descending order).
@@ -25,6 +26,13 @@ heroes = ["Link", "Mario", "Zelda"]
 
 heroes.sort(reverse=True)
 print(heroes)
+
+# I created a list called 'airlines' .
+airlines = ["Southwest", "Jet Blue", "Spirit", "American" ]
+# then I used the sort method to sort the airlines list.
+airlines.sort()
+# then I am printing the newly sorted airlines list.
+print(airlines)
 
 # this is a list I called 'brands' and assigned the list of items containing "gucci", "polo", "hermes".
 brands = ["gucci", "polo", "hermes"]

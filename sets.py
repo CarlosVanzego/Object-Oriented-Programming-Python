@@ -1,5 +1,7 @@
 # Sets
+# 
 # Sets are used to store multiple items in a single variable just like a list, but they cannot have duplicate values. To create a Set, elements are placed inside curly braces "{}".
+# 
 # A few characteristics of Sets:
 # Sets do not have a proper order. The items in a set are arranged in a random order.
 # The items in a Set do not have an index.
@@ -26,13 +28,18 @@ set3 = set1.union(set2)
 print(set3)
 
 fruits = {"blackberry", "apple", "strawberry"}
+
 companies = {"microsoft", "google", "apple"}
+
 presidents = {"Obama", "Trump", "Clinton"}
 print(presidents)
 
 common = fruits.intersection(companies)
 print(common)
 
+
+aircrafts = {"airplane", "jets", "spaceship", "airplane", "helicopter"}
+print(aircrafts)
 
 
 

@@ -1,3 +1,5 @@
+// Encapsulation in JavaScript
+// 
 // Whether it is Python or JavaScript (this example), Object-Oriented Programming works by grouping related vairables and functions that operate on them into Objects; <- This is called Encapsulation:
 
 // This is an example of a procedural approach to a problem in JavaScript;
