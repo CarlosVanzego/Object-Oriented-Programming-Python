@@ -39,7 +39,7 @@ print(i, T, c, P)
 print(p, O, D)
 print(b, W, d, F)
 print(rand, B, t)
-print('f', 'S', 'AIR')
+print(f, S, AIR)
 
 
 
