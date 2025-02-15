@@ -2,7 +2,7 @@
 # 
 # Bisect_left: bisect_left(a, x, lo=0, hi=len(a)):
 
-# Purpose: Finds the index at which element x should be inserted in the list a to maintain the sorted order. If x is already present in a, the functionreturns the leftmost (or first) position where x can be inserted without changing the order.
+# Purpose: Finds the index at which element x should be inserted in the list a to maintain the sorted order. If x is already present in a, the function returns the leftmost (or first) position where x can be inserted without changing the order.
 
 # Parameters:
 # a: the sorted list
