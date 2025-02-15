@@ -1,7 +1,7 @@
 # ADVANCED ALGORITHMS
 
 # Topological Sort
-# The topological sort algorithm tales a directed graph and returns an array of the nodes where each node appears before all the nodes it points to.
+# The topological sort algorithm takes a directed graph and returns an array of the nodes where each node appears before all the nodes it points to.
 # Topological Sort is the linear ordering of a directed graph's nodes such that for every edge from the node u to node v, u comes before v in the ordering
 
 # Time Complexity: O(|V| + |E|)
@@ -16,8 +16,8 @@
 
 
 # Bellman-Ford Algorithm
-# Bellmman-Ford Algorithm is an algorithm thgat computes the shortest paths from a single source node to all other nodes in a weighted graph.
-# Although it is slwoer than Dijkstra's, it is more versatile, as it is capable of handling graphs in which some of the edge weights are negative numbers.
+# Bellmman-Ford Algorithm is an algorithm that computes the shortest paths from a single source node to all other nodes in a weighted graph.
+# Although it is slower than Dijkstra's, it is more versatile, as it is capable of handling graphs in which some of the edge weights are negative numbers.
 
 # Time Complexity:
 # Best case: O(|E|)
