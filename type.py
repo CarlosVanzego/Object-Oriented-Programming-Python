@@ -7,8 +7,8 @@ type(8)
 print(type(8))
 
 # output: <class 'str'> because I passed a string.
-type("Hello friend.")
-print(type("Hello friend."))
+type("Hello mate.")
+print(type("Hello mate."))
 
 # output: <class 'dict'> because I passed a dictionary.
 type({"age": 24})
