@@ -1,5 +1,5 @@
 # AVL Tree
-# Thebn main idea with AVL trees is that you always know two things:
+# The main idea with AVL trees is that you always know two things:
 # The order invariant (if x<y then x is left of y)
 # The height of the tree does not differ by more than one level, i.e. the tree is balanced.
 
