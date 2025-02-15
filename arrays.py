@@ -3,6 +3,7 @@
 # In Python, an array is a data structure similar to a list but is optimized for storing homogeneous elements (elements of the same type). Python's built-in array module provides support for operations on arrays.
 # Ex.
 # 
+# this line imports the array class from the array module.
 from array import array 
 
 # Creating an array of integers.
