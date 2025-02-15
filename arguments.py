@@ -34,9 +34,9 @@ todaysDateFunction('Monday ', 'February ', '10th ', '2025 ')
 # I created a function called 'whereAmITraveling' and passed the arguments 'destination' and 'holiday'.
 def whereAmITraveling(destination, holiday):
   #  I am printing a statement explaning where I am traveling and why.
-   print("I am traveling to " + destination + " for" + holiday)
+   print("I am traveling to " + destination + " for " + holiday)
 # then I am passing the string brooklyn and President's Day. 
-whereAmITraveling("Brooklyn", "President's Day")   
+whereAmITraveling("Showtime Martial Arts", "President's Day Weekend")   
 
 # Arbitrary Arguments (*args)
 # If you do not know how many arguments that will be passed into the function, an asterisk (*) can be placed before the parameter name in the function's definition. This feature allows Python to accomodate function calls with any variable number of arguments.
