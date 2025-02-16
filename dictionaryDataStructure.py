@@ -1,6 +1,6 @@
 # Dictionary (Data Structure)
 # 
-# A Dictionary is a data structure thatg can map keys to values. It uses a has function to compute anm index into an array of buckets or slots, from which the desired value can be found.
+# A Dictionary is a data structure that can map keys to values. It uses a hash function to compute am index into an array of buckets or slots, from which the desired value can be found.
 # Key - a unique identifier used to associate each element (value) in a map.
 # Value - elements associated by keys in a map.
 # Ex.
@@ -12,7 +12,7 @@ hashMap = {}
 # Setting a key-value pair
 hashMap['key1'] = 'value1'
 
-# Getting the size if the dictionary
+# Getting the size of the dictionary
 size = len(hashMap)
 
 # Accessing a value with a key
