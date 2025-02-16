@@ -10,7 +10,7 @@ print(sampleObject.name)
 
 
 # The __init__() function:
-# In Python, when defining a class, an __init__() method can be included to initalize the objects attributes.
+# In Python, when defining a class, an __init__() method (class constructor) can be included to initalize the objects attributes.
 
 # For example, in a 'Student' class, attributes like "student_name", "roll_no", and "grade" can be initialized.
 
