@@ -12,12 +12,12 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f']
 # Then I'm printing the letter in index 5, so the output will be 'f'.
 print(letters[5])
 
-songs = ["Over", "FTCU", "TOO FAST", "Blow for Blow"]
+songs = ["Over", "TOO FAST", "Open Hearts"]
 print(songs[2])
 
 # If you add new items to a list, the new items will be placed at the end of list 
 # List Appending:
-cities = ['new york', 'chicago', 'new orleans']
+cities = ['new york', 'chicago', 'new orleans', "san francisco"]
 
 cities.append("san juan")
 print(cities)
