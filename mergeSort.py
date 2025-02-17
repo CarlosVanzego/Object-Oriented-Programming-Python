@@ -12,7 +12,7 @@
 # Sort each of the two sublists recursively until we have list sizes of lenght 1, in which case the list items are returned.
 
 # Combine phase 
-# Join the two sorted sublists back into one nosrted list. When the conquer step reaches the base step and we get two sorted subarrays, we combine the results by creating a sorted array from two sorted arrays.
+# Join the two sorted sublists back into one sorted list. When the conquer step reaches the base step and we get two sorted subarrays, we combine the results by creating a sorted array from two sorted arrays.
 
 
 
