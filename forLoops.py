@@ -1,9 +1,9 @@
 # For Loop
-# The for loop is used to iterate through the members of a sequence (lists and strings) or any iterable object (dictionaries and sets).
+# 
+# The For Loop is used to iterate through the members of a sequence (lists and strings) or any iterable object (dictionaries and sets).
 # loops continue until we reach the last item in the sequence or object. The body of a for loop is seperated from the rest of the code using indentation.
 # 
-
-# Using a For Loop to iterate through a List (A list is a collection of items that are ordered and changeable. Lists are defined by having values between square brackets []. Lists are mutable, meaning that the values inside the list can be changed):
+# Using a For Loop to iterate through a List. (A list is a collection of items that are ordered and changeable. Lists are defined by having values between square brackets []. Lists are mutable, meaning that the values inside the list can be changed):
 # Ex.
 # 
 # I created a list called "fruits" and stored the values "blueberry", "banana", "strawberry", and "Apple" inside it. 
@@ -13,11 +13,11 @@ for x in fruits:
     # I am printing the value of x.
     print(x)
 
-movies = ["The Matrix", "The Dark Knight", "Up", "Den of Thieves"]
+movies = ["The Matrix", "The Dark Knight", "Up", "Juror #2"]
 for x in movies:
     print(x)   
 
-games = ["Assassins Creed", "Call of Duty", "Halo", "Gears of War"] 
+games = ["Call of Duty", "Halo", "Gears of War"] 
 for x in games:
     print(x)    
 
@@ -32,7 +32,7 @@ for x in wands:
     print(x)
 
 
-drinks = ["Tea", "Coffee", "Water", "Milk"] 
+drinks = ["Tea", "Coffee", "Water"] 
 for x in drinks:
     print(x)
 
@@ -40,6 +40,11 @@ for x in drinks:
 pizzaToppings = ["pepperoni", "cheese", "mushroom"]    
 for x in pizzaToppings:
     print(x)
+
+
+chargerColors = ["white", "black", "grey"]   
+for x in chargerColors:
+    print(x) 
 
 # this is a list I called 'berries'; inside I stored various types of berries. 
 berries = ["blueberries", "strawberries", "raspberries", "blackberries"] 
