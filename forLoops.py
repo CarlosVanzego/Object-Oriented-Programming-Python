@@ -62,13 +62,7 @@ for x in "Apple":
     print(x)
 
 for x in "The Matrix":
-    print(x)   
-
-for x in "Halo":
-    print(x)    
-
-for x in "Elm":
-    print(x)    
+    print(x)     
 
 # this is a for loop to iterate through the characters within the "Puma" item in the 'sportingBrands' list.
 for x in "Puma":
@@ -94,7 +88,7 @@ for x in range(3):
     # then I am printing the numbers 0-2.
     print(x)   
      
-for x in range(300):
+for x in range(13):
     print(x)
 
 
@@ -104,7 +98,7 @@ for x in range(300):
 # 
 # I created a dictionary called "c" and stored the key-value pairs "a": 1, "b": 2, "c": 3, and "d": 4 inside it.
 c = {"a": 1, "b": 2, "c": 3, "d": 4}
-# I created a for loop that iterates through the "c" dictionary. c.items() returns a list of tuples. Each tuple contains a key-value pair.
+# I created a For Loop that iterates through the "c" dictionary. c.items() returns a list of tuples. Each tuple contains a key-value pair.
 for key, value in c.items():
     # I am printing the key and value of the dictionary. 
     print(key, value)
@@ -128,4 +122,8 @@ for key, value in i.items():
 
 d = {"o":24, "p": 25, "p": 26}    
 for key, value in d.items():
+    print(key, value)
+
+Y = {"t": 'new', "o": 'dictionary', }    
+for key, value in Y.items():
     print(key, value)
