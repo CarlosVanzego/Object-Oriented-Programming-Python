@@ -13,8 +13,8 @@ def findOldestChild(child1, child2, child3, child4):
 
 findOldestChild(child1 = "Carlos", child2 = "Taylor", child3 = "Robert", child4 = "Nia")  
 
-def whatMovieIsThis(movie1, movie2, movie3):
-  print("This movie is called " + movie1)
+def whatMovieIsThis(movie2, movie3, movie1):
+  print("This movie is called " + movie2)
 
 whatMovieIsThis(movie1 = "The ⏳ Traveler's 👰🏾‍♀️", movie2 = "🌍 of the 🦍", movie3 = "🐍 on a 🛩️") 
 
