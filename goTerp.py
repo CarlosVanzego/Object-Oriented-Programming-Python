@@ -52,13 +52,13 @@ turtle.done()
 
 
  
-# # this creates an object "c" which is an instance of the "Turtle" class.
+# This creates an object "c" which is an instance of the "Turtle" class.
 # c = turtle()
 # for _ in range(4):
 #     # I'm using the forward method to move the turtle forward 444 pixels
 #     c.forward(44)
 #     # then I an using the right method to turn the turtle 80 degrees to the right.
 #     c.right(80)
-# # this is a method that I am using to keep the window open until I close it.
+# this is a method that I am using to keep the window open until I close it.
 # turtle.done()   
 
