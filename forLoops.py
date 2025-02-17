@@ -47,7 +47,7 @@ for x in chargerColors:
     print(x) 
 
 # this is a list I called 'berries'; inside I stored various types of berries. 
-berries = ["blueberries", "strawberries", "raspberries", "blackberries"] 
+berries = ["strawberries", "raspberries", "blackberries"] 
 # then I am using a for loop to iterate though all the elements of the berries list.
 for x in berries:
     print(x) 
