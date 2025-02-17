@@ -1,6 +1,6 @@
 # List Comprehension
 # 
-# List comprhension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+# List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
 # You can use it to make your code look cleaner and more professional. It also enhances the readability for the programmer.
 # 
 # Syntax: 
@@ -10,7 +10,7 @@
 # 
 players = ["LeBron", "Jordan", "Curry", "Bryant", "Harden"]
 
-newPlayerlist = [x for x in players if "a" in x]
+newPlayerlist = [x for x in players if "u" in x]
 print(newPlayerlist)
 
 
@@ -22,6 +22,6 @@ print(myPhonelist)
 
 
 
-notThatPhone = [x for x in whichPhone if x != 'iPhone']
+notThatPhone = [x for x in whichPhone if x != 'sidekick']
 print(notThatPhone)
 
