@@ -19,21 +19,21 @@ def draw_square(size):
         t.left(90)
         
 # then I am calling the function "draw_square" and passing the argument "100" to the function because the sqaure is 100 pixels.
-draw_square(100) 
+draw_square(200) 
 
 
-# I made a function called "mover_forward" to move the turtle and draw a new shape; This function allows me to use the up arrow key on my keyboard to move the turtle forward.
+# I made a function called "move_forward" to move the turtle and draw a new shape; This function allows me to use the up arrow key on my keyboard to move the turtle forward.
 def move_forward():
-    # I am using the 'forward' method to move the turtle forward 20 pixels.
-    turtle.forward(20)
+    # I am using the 'forward' method to move the turtle forward 25 pixels.
+    turtle.forward(25)
 # I made a function called "turn_left" to turn the turtle, this function allows me to use the left arrow key on my keyboard to turn the turtle left.
 def turn_left():
-    # I am using the 'left' method to turn the turtle 45 degrees to the left.
-    turtle.left(45)
+    # I am using the 'left' method to turn the turtle 50 degrees to the left.
+    turtle.left(50)
 # I made a function called "turn-right" to turn the turtle, this function allows me to use the right arrow key on my keyboard to turn the turtle right.
 def turn_right():
-    # I am using the right method to turn the turtle 45 degrees to the right.
-    turtle.right(45)
+    # I am using the right method to turn the turtle 50 degrees to the right.
+    turtle.right(50)
 # I am using the listen method to listen for the keyboard input and move the turtle accordingly.
 screen.listen()
 # I am using the 'onkey' method to listen for the up arrow key on the keyboard and move the turtle forward.

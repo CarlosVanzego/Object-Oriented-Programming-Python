@@ -4,6 +4,7 @@
 # They help in breaking down the program into smaller, more modular chunks, making the code more organized and reusable.
 # For example, you can write a function to draw a square and then call this function whenever you need to draw a square, instead of writing the square-drawing code each time.
 # Ex.
+# 
 
 def draw_square():
     print("Drawing a square")
@@ -36,4 +37,11 @@ def dateFunction(dayOfWeek, monthOfYear, dayOfMonth, year):
 def flightDestinations():
     pass    
 
+
+def havingAConversartion(talk, person):
+    talk = 'friendship'
+    person = 'taylor'
+
+    
+    havingAConversartion()
 

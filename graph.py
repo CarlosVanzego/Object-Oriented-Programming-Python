@@ -1,7 +1,7 @@
 # Graph
 # 
 # A graph data structure is a collection of nodes that have data and are connected to other nodes.
-# It consists of a collection of vertices V and a collection of edges E, represented as ordered pairs of vertices (V,E)
+# It consists of a collection of vertices V and a collection of edges E, represented as ordered pairs of vertices (V,E).
 
 # Adjacency:
 # A vertex is considered adjacent to another vertex if they are connected by an edge.
