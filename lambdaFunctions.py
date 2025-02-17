@@ -8,13 +8,13 @@
 exampleLambdaFunction = lambda a, b : a + b  
 # The keyword lambda must come first. A full colon (:) seperates the argument and the expression.
 # The expression is executed and the result is returned.
-# In the example code below, c is the argument and c+4 is the expression:
+# In the example code below, c is the argument and c+8 is the expression:
 sumFunction = lambda c : c + 8
 
 print(sumFunction(8))
 # this is a lambda function where I have the variable 'sum' and assigned it the lamda function in which v is the argument, and v-14 is the expression.
 sum = lambda v : v - 14
-# then I am printing the sum, where 'v' is equal to 20. The output will be 6 (28 - 14).
+# then I am printing the sum, where 'v' is equal to 28. The output will be 6 (28 - 14).
 print(sum(28))
 
 
