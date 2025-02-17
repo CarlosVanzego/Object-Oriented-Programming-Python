@@ -4,7 +4,7 @@
 # A hash function is used to generate a specific value according to a mathematical algorithm.
 # A hash table stores key/value pairs in the form of a list where any element can be accessed using its index.
 # If two keys map to the same index, a collision occurs.
-# Hashing is also used in data encryption. Passwords can be stored in the form of their hashes so that even if a databse is breached, plaintext passwords are not accessible.
+# Hashing is also used in data encryption. Passwords can be stored in the form of their hashes so that even if a database is breached, plaintext passwords are not accessible.
 # Some popular cryptographic hashes are MD5, SHA-1 and SHA-2.
 
 
