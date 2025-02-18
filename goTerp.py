@@ -18,8 +18,8 @@ def draw_square(size):
         # I am using the right method (rt) to turn the turtle 90 degress to the right. 
         t.left(90)
         
-# then I am calling the function "draw_square" and passing the argument "100" to the function because the sqaure is 100 pixels.
-draw_square(200) 
+# then I am calling the function "draw_square" and passing the argument "150" to the function because the square is 150 pixels.
+draw_square(150) 
 
 
 # I made a function called "move_forward" to move the turtle and draw a new shape; This function allows me to use the up arrow key on my keyboard to move the turtle forward.

@@ -27,10 +27,10 @@ d = 9
 A = 'alchemist'
 Z = 'zero'
 P = 'pushin'
-F = 'february'
+F = 'february📆'
 rand = 'value'
-AIR = 'AIRLINES'
-TY = "To You"
+AIR = 'AIRLINES🛩️'
+TY = "Thank You🤓"
 # Here I created the constatnt variable 'D' and assigned it the boolean value "True".
 D = True
 # this is a print statement I am using to print the values of the above variables.
