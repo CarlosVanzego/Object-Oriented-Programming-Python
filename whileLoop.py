@@ -6,8 +6,8 @@
 # I initialized the variable 'c' with a value.
 c = 100
 # I created a while loop that runs as long a 'c' is less than another value.
-while c < 110:
+while c < 108:
   # Inside the loop, I print the current value of 'c'.
   print(c)
-  # I then increment 'c' by 1 each iteration, stopping before it reaches 8.
-  c += 1
+  # I then increment 'c' by 2 each iteration, stopping before it reaches 108.
+  c += 2

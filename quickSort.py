@@ -7,8 +7,8 @@
 # Choose a pivot.
 # Place all numbers less than the pivot to the left.
 # The left and the right subparts are again paritioned by selectiung pivot elements for them.
-# A pivot element is chosen from the array. You can choose any element from the array as teh pivot element.
-# The elements smaller than the pivot are put on th eleft and the elements greater than the pivot element are put on the right.
+# A pivot element is chosen from the array. You can choose any element from the array as the pivot element.
+# The elements smaller than the pivot are put on the left and the elements greater than the pivot element are put on the right.
 # It uses recursion for the implementation.
 
 

@@ -4,7 +4,7 @@
 # Ex.
 # 
 def selectionSort(listToSort):
-  # Traverse through  all array elements
+  # Traverse through all array elements
   for i in range(len(listToSort)):
 
     # find the minimum element in remaining unsorted array

@@ -1,6 +1,6 @@
 # Singly Linked List
 # 
-# A linked list is a list that is liknked to nodes.
+# A linked list is a list that is linked to nodes.
 # The first node is called the Head.
 # The last node is called the Tail.
 # The Null signifies it's the end of the list.

@@ -21,5 +21,5 @@ print(type(x))
 
 # Methods - A function that goes inside of a class; Can be performed on Objects.
 string = "hello"
-print(string.upper())
 # Here the method 'upper' acting on the Object of type Str that is stored in the "string" variable.
+print(string.upper())

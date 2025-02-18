@@ -1,4 +1,5 @@
 # Sort
+# 
 # The sort() method sorts the elements of a given list in either ascending or descending order. 
 # By default, sort() doesn't require any extra parameters. However, it has two optional parameters:
 # reverse - If 'True', the sorted list is reversed (or sorted in Descending order).

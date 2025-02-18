@@ -24,7 +24,8 @@ tuesdayTuple = ("Today", "is ", "Tuple", "Tuesday🤓")
 print(tuesdayTuple)
 
 
-
+# Another explanation:
+# 
 # A tuple is a collection of objects that are ordered and immutable. Tuples are defined by having values between parentheses (). Tuples are immutable, meaning that the values inside the tuple cannot be changed. Tuples are used to store multiple items in a single variable.
 
 # Creating a tuple:

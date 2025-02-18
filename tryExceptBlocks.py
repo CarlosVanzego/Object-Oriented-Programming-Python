@@ -8,7 +8,7 @@
 # It's good practice to use Try Except Blocks whenever you can.
 # Ex.
 # 
-# The try block will generate an exception, because c is not defined, therefore the code execution moves onto the except block:
+# The try block will generate an exception, because c is not defined **when passing it in the print statement**, therefore the code execution moves onto the except block:
 try:
   print()
 except:
@@ -18,7 +18,7 @@ except:
 
 
 # 'Else' Key word:
-# Yuoo can use the else keyword tod efine a block of code to be executed if no errors were raised:
+# You can use the 'else' keyword to define a block of code to be executed if no errors were raised:
 # 
 try:
   print("Hello there.")

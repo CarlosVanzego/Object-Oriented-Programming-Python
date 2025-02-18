@@ -1,4 +1,6 @@
-# this is a fucntion I called 'calculate_area_ to calculate the area of a rectangle. I am passing the parameters 'length' and 'width' to give a set length and width for the calculation.
+# Procedural programming in Python
+# 
+# this is a function I called 'calculate_area_' to calculate the area of a rectangle. I am passing the parameters 'length' and 'width' to give a set length and width for the calculation.
 def calculate_area(length=10, width=5):
   # this is a variable I declared called 'area' that multiplies the length by the width.
   area = (length * width)

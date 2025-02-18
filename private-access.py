@@ -6,8 +6,9 @@
 #         print("Private method")
 
 
-
+# this is a class I called 'PrivateBathroom'.
 class PrivateBathroom:
+    # this is the constructo method where I passed 'sink', 'toilet', 'shower', and 'mirror'.
     def __init__(self, sink="Kraus", toilet="Drake", shower="AXOR", mirror="Maestro"):
         self.__private_sink = sink
         self.__private_toilet = toilet

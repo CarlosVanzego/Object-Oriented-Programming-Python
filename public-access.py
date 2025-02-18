@@ -1,13 +1,14 @@
-# I created a class called 'PublicClass'
-# class PublicClass:
-    # here I am instatiating (creating an object from the class) the __init__ constructor.
-    # def __init__(self, value):
-        # then I am initializing the 'value' attribute, setting it equal to "public_var" a public variable; You know this is public because there is no (_) prefix in the variable name.
-        # self.public_var = value
+# I created a class called 'PublicClass'.
+
+class PublicClass:
+    # here I am initializing the constructor method (creating an object from the class) with the __init__ constructor.
+    def __init__(self, value):
+        # then I am instantiating the 'value' attribute, setting it equal to "public_var" a public variable; You know this is public because there is no (_) prefix in the variable name.
+        self.public_var = value
     # then I am defining a public method called 'public_method'; You know this is a public method becuase there is no (_) prefix in the method name.
-    # def public_method(self):
+    def public_method(self):
         # then I am printing 'Public Method'
-        # print("Public Method")    
+        print("Public Method")    
  
 
 # Ex. 2

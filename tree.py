@@ -11,7 +11,7 @@
 
 # Important Terms In Trees
 # Path - Path refers to the sequence of nodes along the edges of a tree.
-# Root - The node at the top of the tree is called root. There is only one root per tree and one dpath from the root node to any node.
+# Root - The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
 # Parent - Any node except the root has one edge upward to a node called parent.
 # Child - The node below a given node connected by its edge downward is called its child node.
 # Leaf - The nodes without child nodes.
