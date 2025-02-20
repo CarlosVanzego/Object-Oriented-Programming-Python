@@ -8,10 +8,10 @@ from array import array
 
 # Creating an array of integers.
 # Include  'i' for integers, 'f' for floating points, 'u' for Unicode characters
-arr = array('i', [1,2,3,4])
+arr = array('b', [1,2,3,4,5])
 
 # Append a new element 
-arr.append(5)
+arr.append(6)
 print(arr)
 
 # Inserts 7 at index 2
