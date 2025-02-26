@@ -52,6 +52,6 @@ findYoungestKid("Carlos", "Taylor", "Robert", "Nia")
 
 
 def findEldestChild(*children):
-   print("The eldest kid is " + children[0])
+   print("The second eldest kid is " + children[1])
 findEldestChild("Carlos", "Taylor", "Robert", "Nia")   
 
