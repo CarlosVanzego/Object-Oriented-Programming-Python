@@ -1,20 +1,20 @@
 # In Python a variable is a container that stores a value. The value can be a string, integer, float, boolean, etc.
 
 # this is a variable I created called "x" inside it I stored the value 'Los'. By doing this I am making the "x" variable of type str (string). Then I created more variables and stored values in them.
-x = 'Los'
-y = 'Carlos'
-z = 'Texas'
-u = 'copilot'
-i = 'value'
+x = 'xzibit'
+y = 'youtube'
+z = 'zebra'
+u = 'ubisoft'
+i = 'image'
 p = 'plant'
 b = 'boxing'
 t = 'type'
 f = 'fly'
-hi = "hey there"
+hi = "hiii"
 # This varaible "F" is a constant, you know this because I used a capital letter to name the variable. When this is done, it is using a naming convention that indicates that the variable should be treated as a constant and not changed. Then I created more constant variables and assigned them values.
 H = 'Houston'
-G = 'mouse'
-T = 'pass'
+G = 'Great'
+T = 'Take'
 O = 'Orange'
 W = 'Workout'
 B = 'Blue'
