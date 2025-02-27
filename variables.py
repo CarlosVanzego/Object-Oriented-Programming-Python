@@ -21,16 +21,16 @@ B = 'Blue'
 S = 'Southwest'
 I = "I am commited"
 # this is another variable, I called this one "a" and stored the value 4. By doing this I am making "4" of type int (integer). Then I created more variables and stored values in them.
-a = 4
-c = 12
-d = 9
-A = 'alchemist'
-Z = 'zero'
-P = 'pushin'
-F = 'february📆'
-rand = 'value'
-AIR = 'AIRLINES🛩️'
-TY = "Thank You🤓"
+a = 1
+c = 3
+d = 4
+A = 'ALCHEMIST'
+Z = 'ZERO'
+P = 'PUSHIN'
+F = 'FEBRUARY'
+rand = 'random'
+AIR = 'AIRPLANE'
+TY = "THANK YOU🙏"
 # Here I created the constatnt variable 'D' and assigned it the boolean value "True".
 D = True
 # this is a print statement I am using to print the values of the above variables.
