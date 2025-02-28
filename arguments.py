@@ -9,7 +9,7 @@ def printStatement(personName, sport):
   # I am printing the values of the arguments passed into the function, and using string concatenation to make the output more readable.
   print(personName + " plays " + sport)
 # I am calling the function 'printStatement' and passing in the arguments "Lebron James" and "Basketball".
-printStatement("Lebron James", "Basketball")
+printStatement("Terrell Owens", "Football")
 
 def playerStatement(playerName, team):
   print(playerName + " plays " + "for" + " the " + team)
