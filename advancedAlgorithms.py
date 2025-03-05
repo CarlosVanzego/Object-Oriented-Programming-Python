@@ -9,7 +9,7 @@
 
 
 
-# Dijkstra's Algorithm
+# Dijkstra's Algorithm:
 # Dijkstra's Algorithm is an algorithm for finding the shortest path between nodes in a graph.
 # A graph traversal algorithm used to find the shortest path between a single source node and all other nodes in a graph.
 
@@ -17,7 +17,7 @@
 
 
 
-# Bellman-Ford Algorithm
+# Bellman-Ford Algorithm:
 # Bellmman-Ford Algorithm is an algorithm that computes the shortest paths from a single source node to all other nodes in a weighted graph.
 # It is an algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph.
 # Although it is slower than Dijkstra's, it is more versatile, as it is capable of handling graphs in which some of the edge weights are negative numbers.
