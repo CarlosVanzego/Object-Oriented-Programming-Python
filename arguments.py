@@ -25,7 +25,7 @@ foodFunction("Los", "pizza")
 
 def argumentFunction(arg1, arg2):
     print("This is the first argument -> " + arg1 + ", and this is the second argument -> " + arg2)
-argumentFunction("python", "coder")
+argumentFunction("python", "programmer")
 
 def todaysDateFunction(dayOfWeek, monthOfYear, dayOfMonth, year):
     print("Todays date is " + dayOfWeek + monthOfYear + dayOfMonth + year)
