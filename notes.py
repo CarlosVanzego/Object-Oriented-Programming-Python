@@ -4,13 +4,13 @@ def hello():
 
 # Type
 x = 1
-# will print the type 'str'
+# this will print the type 'str'
 print(type("hello")) 
 # In the terminal this prints "<class 'str'>", what this means is that the string "hello" is actually an Object of the Class String.
 
 # Ex.
 x = 1
-# will print the type 'int'
+# this will print the type 'int'
 print(type(x))
 # In the terminal this prints "<class 'str'>", this is due to the same reasoning.
 

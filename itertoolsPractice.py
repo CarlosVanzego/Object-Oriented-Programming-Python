@@ -9,7 +9,7 @@ import itertools
 
 data = [1, 2, 3]
 
-# 
+
 # This will print all 2-element permutations of the list [1, 2, 3]
 for perm in itertools.permutations(data, 2):
   print(perm)

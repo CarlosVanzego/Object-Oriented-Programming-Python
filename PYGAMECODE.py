@@ -46,3 +46,5 @@ def main():
 # this line ensures that when I run this file, it will only run the main function from this file and not from anywhere else. Making it so the game can only be ran from this file directly. "__name__" is the name of the file, and "__main__" is main file that is run.
 if __name__ == "__main__":
    main()
+
+   

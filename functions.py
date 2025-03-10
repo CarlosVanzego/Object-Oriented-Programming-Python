@@ -7,7 +7,7 @@
 # 
 
 def draw_square():
-    print("Drawing a square")
+    print("Draw a square")
 
     draw_square()
 
@@ -18,7 +18,7 @@ def function_add(a, b):
 print(function_add(2, 4)) 
 
 def multiplication_function():
-    t = 12 * 12
+    t = 4 * 4
     return t
     
 print(multiplication_function())
@@ -40,7 +40,7 @@ def flightDestinations():
 
 def havingAConversartion(talk, person):
     talk = 'friendship'
-    person = 'taylor'
+    person = 'carlos'
 
     
     havingAConversartion()

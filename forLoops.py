@@ -3,7 +3,7 @@
 # The For Loop is used to iterate through the members of a sequence (lists and strings) or any iterable object (dictionaries and sets).
 # loops continue until we reach the last item in the sequence or object. The body of a for loop is seperated from the rest of the code using indentation.
 # 
-# Using a For Loop to iterate through a List. (A list is a collection of items that are ordered and changeable. Lists are defined by having values between square brackets []. Lists are mutable, meaning that the values inside the list can be changed):
+# Using a For Loop to iterate through a List. (A list is a collection of items that are ordered and changeable. Lists are defined by having values between square brackets []; Lists are mutable, meaning that the values inside the list can be changed):
 # Ex.
 # 
 # I created a list called "fruits" and stored the values "blueberry", "banana", "strawberry", and "Apple" inside it. 
@@ -24,6 +24,7 @@ for x in games:
 wands = ["Elm", "Cherry", "Alder", "Chestnut"]  
 for x in wands:
     print(x)
+    
 # This is a variable named 'sportingBrands' that I assigned a list of strings.
 sportingBrands = ["Nike", "Adidas", "Under Armour", "Puma"]  
 # Them I am using a for loop to iterate through the list.

@@ -1,6 +1,6 @@
 # B+ Trees
 # 
-# B+ tree is an extension of the B-tree, and the data here is stored in leaf nodes only. Due to this factor, searching in a B+ tree is faster and more efficient.
+# B+ tree is an extension of the B-tree, and the data here is stored in leaf nodes only. Due to this factor, searching in a B+tree is faster and more efficient.
 
 # Leaves are used to store data records
 # Data keys are stored in the internal nodes of the tree.

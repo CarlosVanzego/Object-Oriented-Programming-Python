@@ -1,6 +1,6 @@
 # Open Function
 # 
-# The open() function is used to either read content from or write content to a file based on the argument we pass. It is a common file handling tool used in Python.
+# The open() function is used to either read content from, or write content to a file based on the argument we pass. It is a common file handling tool used in Python.
 # 
 # Syntax
 # open(file, mode)

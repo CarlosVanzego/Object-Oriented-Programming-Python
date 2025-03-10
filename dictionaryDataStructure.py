@@ -5,7 +5,7 @@
 # Value - elements associated by keys in a map.
 # Ex.
 # 
-
+# 
 # creating a dictionary
 hashMap = {}
 

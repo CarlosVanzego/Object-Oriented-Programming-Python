@@ -23,7 +23,7 @@ print(type(C))
 # Attempting to convert a non-numericstring into an integer will raise a ValueError
 try:
   # This will cause an error 
-  invalid_conversion = int("Coding") 
+  invalid_conversion = int("Not an integer") 
 # Thi line uses the ValueError class to define the error and assign the error message to the variable 'e'.
 except ValueError as e:
   # This wiill catch and print the error message.

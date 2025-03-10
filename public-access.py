@@ -34,4 +34,3 @@ class PublicBathroom:
 nastyBath = PublicBathroom()
 # then I'm printing a statement saying "This public bathroom has a blanco sink and a kohler toilet."
 print(f"This public bathroom has a {nastyBath.get_sink()} sink, and a {nastyBath.get_toilet()} toilet🤢.")
-

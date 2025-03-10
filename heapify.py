@@ -7,8 +7,7 @@
 # If leftChild is greater than currentElement, set leftChildIndex as largest.
 # If rightChild is greater than element in largest, set rightChildIndex as largest.
 # Swap the element at the largest index with the currentElement.
-# Repeat the process until the subtrees are heapified
-# 
+# Repeat the process until the subtrees are heapified 
 
 # importing "heapq" to implement heap queue
 import heapq
@@ -22,7 +21,7 @@ heapq.heapify(li)
 # printing created heap
 print("The created heap is : ",(list(li)))
 
-# output: The created heap is : [1, 3, 9, 7, 5]
+# output: The created heap is: [1, 3, 9, 7, 5]
 
 # TIME COMPLEXITY
 # Access Max/Min - O(1)

@@ -1,9 +1,9 @@
 # Enumerate Function
 # 
-# The enumerate() method adds a counter to an interable and returns it as a list or tuples.
+# The enumerate() method adds a counter to an iterable and returns it as a list or tuples.
 # Ex.
 # 
-languages = ["Python", "JavaScript", "C++", "Ruby", "TypeScript"]
+languages = ["Python", "JavaScript", "C++", "TypeScript", "Go"]
 enumeratedList = enumerate(languages)
 
 print(list(enumeratedList))

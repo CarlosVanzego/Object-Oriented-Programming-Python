@@ -10,7 +10,7 @@
 # An optimal solution is reached by "greedily" choosing the locally optimal choice without ever reconsidering previous choices.
 
 # Prim's Algorithm
-# Finds a minimum spanning tree for a weighted undirected graph. Prim's find a subset of edges that forms a tree that includes every node in the graph
+# Finds a minimum spanning tree for a weighted undirected graph. Prim's find a subset of edges that forms a tree that includes every node in the graph.
 # Time complexity: O(|V|^2)
 
 # Kruskal's Algorithm

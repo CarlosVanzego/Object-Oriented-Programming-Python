@@ -1,4 +1,4 @@
-# Object Oriented Programming in Python
+# Object Oriented Programming in Python (Practice)
 
 # This is a Class I called "Wolf"
 class Wolf:

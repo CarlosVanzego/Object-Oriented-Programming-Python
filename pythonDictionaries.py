@@ -12,12 +12,12 @@
 # Ex.
 # 
 sampleDict = {
-  "sport": "Boxing",
-  "player": "Floyd Mayweather",
-  "team": "Mayweather Promotions"
+  "sport": "Football",
+  "athlete": "Lamar Jackson",
+  "team": "Baltimore Ravens"
   }
 
-print(sampleDict["player"])
+print(sampleDict["athlete"])
 
 
 

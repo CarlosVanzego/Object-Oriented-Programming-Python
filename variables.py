@@ -1,3 +1,5 @@
+# Variables
+# 
 # In Python a variable is a container that stores a value. The value can be a string, integer, float, boolean, etc.
 
 # this is a variable I created called "x" inside it I stored the value 'Los'. By doing this I am making the "x" variable of type str (string). Then I created more variables and stored values in them.

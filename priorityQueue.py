@@ -1,4 +1,4 @@
-# Priority Queue
+# Priority Queue (Data structure)
 # 
 # A priority queue is a data structure where each element is assigned a priority.
 # Elements with higher priority are served before elements with lower priority.

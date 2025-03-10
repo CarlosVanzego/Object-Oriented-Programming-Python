@@ -11,4 +11,4 @@
 # Space complexity:
 # A recursive implementation can have a O(h) space complexity (worst case), where h is the maximal depth of your tree.
 
-# Using an iterative solution with stack is O(|V|)
+# Using an iterative solution with stack is O(|V|).

@@ -1,3 +1,6 @@
+# the purpose of this file was to create a function to draw a square..
+
+
 # I'm importing the "turtle" module into this file. This module allows me to draw shapes and create animations.
 import turtle
 

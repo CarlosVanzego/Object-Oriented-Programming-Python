@@ -40,6 +40,3 @@ print(common)
 
 aircrafts = {"airplane", "jets", "spaceship", "airplane", "helicopter"}
 print(aircrafts)
-
-
-

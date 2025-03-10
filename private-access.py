@@ -1,14 +1,14 @@
-# class MyClass:
-#     def __init__(self, value):
-#         self.__private_var = value
+class MyClass:
+    def __init__(self, value):
+        self.__private_var = value
 
-#     def __private_method(self):
-#         print("Private method")
+    def __private_method(self):
+        print("Private method")
 
 
 # this is a class I called 'PrivateBathroom'.
 class PrivateBathroom:
-    # this is the constructo method where I passed 'sink', 'toilet', 'shower', and 'mirror'.
+    # this is the constructor method where I passed 'sink', 'toilet', 'shower', and 'mirror'.
     def __init__(self, sink="Kraus", toilet="Drake", shower="AXOR", mirror="Maestro"):
         self.__private_sink = sink
         self.__private_toilet = toilet

@@ -6,7 +6,7 @@ class ExampleClass:
         self.value = value
 
 
-
+# here I created a class called "Car"
 class Car:
     def __init__(self, make, model):
         self.make = make

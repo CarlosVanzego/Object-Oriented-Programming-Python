@@ -14,14 +14,11 @@ newPlayerlist = [x for x in players if "u" in x]
 print(newPlayerlist)
 
 
-
 whichPhone= ['iPhone', 'Samsung', 'sidekick']
 
 myPhonelist = [x for x in whichPhone if "i" in x]
 print(myPhonelist)
 
 
-
 notThatPhone = [x for x in whichPhone if x != 'sidekick']
 print(notThatPhone)
-

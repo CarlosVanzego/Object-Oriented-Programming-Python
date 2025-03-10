@@ -3,7 +3,7 @@
 # Collections.Counter is a subclass of the dictionary class in Python, provided by the collections module. It is designed for counting hashable objects and is a powerful tool for frequency analysis. Here's a brief review:
 
 # Functionality:
-# It counts the occurence of each element in an iterable (like lists, strings) and stores them as dictionary keys, with the counts as their corresponding value
+# It counts the occurence of each element in an iterable (like lists, strings) and stores them as dictionary keys, with the counts of each as their corresponding value
 # 
 from collections import Counter
 

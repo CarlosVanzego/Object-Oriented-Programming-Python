@@ -1,4 +1,5 @@
 # Type Keyword
+# 
 # The built-in function type() returns the type of an object. In Python3, everything is an object and thus an instance of a class. Therefore, the built-in function type() can be used to return the class type of the passed variable.
 # Ex
 # 

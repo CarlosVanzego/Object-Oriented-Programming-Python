@@ -8,7 +8,7 @@ from array import array
 
 # Creating an array of integers.
 # Include  'i' for integers, 'f' for floating points, 'u' for Unicode characters
-arr = array('b', [1,2,3,4,5])
+arr = array('b', [0,1,2,3,4])
 
 # Append a new element 
 arr.append(6)
@@ -23,11 +23,11 @@ arr.extend([8, 9, 10])
 print(arr)
 
 # Removes the first occurence of 3
-arr.remove(3)
+arr.remove(1)
 print(arr)
 
 # Returns the index of the first occurence of 4
-arr.index(4)
+arr.index(2)
 print(arr)
 
 # Access elements

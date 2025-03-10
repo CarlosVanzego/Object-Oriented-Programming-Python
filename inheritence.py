@@ -1,4 +1,5 @@
-# Inheritence in OOP in Python
+# Inheritence in OOP (in Python)
+# Inheritence in OOP is one of the 4 pillars of OOP; With inheritence we can eliminate redundant code within a program.
 
 
 # To simplify this, I can remove the constuctor '__init__' method, and then I would need to make an upper level Class 'Pet':

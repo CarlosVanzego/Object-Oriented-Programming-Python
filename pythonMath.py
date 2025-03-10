@@ -3,7 +3,7 @@
 # Python has a set of built-in math functions which allow you to perform math functions on numbers.
 
 # min() and max() functions:
-# The min() and max() functions can be used to find the lowest or highest value in an interable.
+# The min() and max() functions can be used to find the lowest or highest value in an iterable.
 # Note: iterable in Python can mean anything that you can Loop over and has a list of contents for example a list, tuple, set etc.
 # Ex.
 # 

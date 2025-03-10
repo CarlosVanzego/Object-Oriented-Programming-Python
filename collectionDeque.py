@@ -5,23 +5,23 @@
 # 
 from collections import deque
 
-d = deque([1, 2, 3])
+first_deque = deque([1, 2, 3, 4])
 # Add 4 to the right end.
-d.append(4)
-print(d)
+first_deque.append(5)
+print(first_deque)
 
 # Add 0 to the left end.
-d.appendleft(0)
-print(d)
+first_deque.appendleft(0)
+print(first_deque)
 
 # Remove and return the rightmost item.
-d.pop()
-print(d)
+first_deque.pop()
+print(first_deque)
 
 # Remove and return the leftmost item. 
-d.popleft()
-print(d)
+first_deque.popleft()
+print(first_deque)
 
 # Add multiple elements at the right end.
-d.extend([5, 6, 7])
-print(d)
+first_deque.extend([6, 7, 8])
+print(first_deque)

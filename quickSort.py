@@ -2,7 +2,7 @@
 # 
 # Quick Sort uses a pivoting technique to break the main list into a smaller list and the smaller list uses the pivoting technique unless they are sorted.
 
-# How quickstart works
+# How quicksort works
 # Quick sort follows the Divide and Conquer approach.
 # Choose a pivot.
 # Place all numbers less than the pivot to the left.

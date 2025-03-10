@@ -16,7 +16,7 @@
 # bisect_right(a, x, lo=0, hi=len(a)):
 
 # Purpose: Similar to bisect_left, but returns the rightmost place in the list where x can be inserted without changing the order.
-# Parameters: Same as bisect_left
+# Parameters: Same as bisect_left.
 # Returns: The insertion point for x in a to maintain sorted order.
 # Ex.
 # 
