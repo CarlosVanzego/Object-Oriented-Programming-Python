@@ -2,7 +2,7 @@
 
 # This is a class called "Person"
 class Person:
-  # This is a Class-Attribute of the class "Person" and not a regular Attribute because it does not use 'self'. It is not defined in any method, and it does not  have access to an instance of the Class, it is defined for the entire Class; Which means it is not specific to any instance.
+  # This is a Class-Attribute of the class "Person" and not a regular Attribute because it does not use 'self'. It is not defined in any method, and it does not have access to an instance of the Class, it is defined for the entire Class; Which means it is not specific to any instance.
   # Class attribute shared among all instances of the class.
   number_of_people = 0
   # this line initializes the function with the arguments self and name; the contstructor method that initializes an instance with a name attribute.
@@ -17,6 +17,3 @@ print(p1)
 p2 = Person("Tina")
 # here I am printing the variable p2.
 print(p2)
-
-
-# Class-Attributes are useful for/when...

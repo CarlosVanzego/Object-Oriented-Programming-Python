@@ -12,6 +12,7 @@ class Car:
         self.make = make
         self.model = model
 
+# I created a function call "drive" that takes the argument "self".
     def drive(self):
         pass
     
