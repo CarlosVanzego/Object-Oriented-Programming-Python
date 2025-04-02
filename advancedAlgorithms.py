@@ -1,4 +1,4 @@
-# ADVANCED ALGORITHMS
+# ADVANCED ALGORITHMS:
 
 # Topological Sort
 # The topological sort algorithm takes a directed graph and returns an array of the nodes where each node appears before all the nodes it points to.

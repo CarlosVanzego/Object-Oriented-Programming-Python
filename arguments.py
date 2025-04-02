@@ -5,11 +5,11 @@
 # Ex.
 # 
 # this is a function I called 'printStatement' that takes two arguments 'personName' and 'sport'.
-def printStatement(personName, sport):
+def printStatemnt(personName, sport):
   # I am printing the values of the arguments passed into the function, and using string concatenation to make the output more readable.
-  print(personName + " plays " + sport)
+  print(personName + " runs " + sport)
 # I am calling the function 'printStatement' and passing in the arguments "Lebron James" and "Basketball".
-printStatement("josh Allen", "Football")
+print("Carlos", "Track and Field")
 
 def playerStatement(playerName, team):
   print(playerName + " plays " + "for" + " the " + team)
@@ -21,22 +21,22 @@ singerBand("Robert Plant", "Led Zeppelin")
 
 def foodFunction(personName, foodType):
    print(personName + " loves " + foodType)
-foodFunction("Los", "pizza")  
+foodFunction("Los", "pasta")  
 
 def argumentFunction(arg1, arg2):
     print("This is the first argument -> " + arg1 + ", and this is the second argument -> " + arg2)
-argumentFunction("python", "programmer")
+argumentFunction("Python", "programmer")
 
 def todaysDateFunction(dayOfWeek, monthOfYear, dayOfMonth, year):
     print("Todays date is " + dayOfWeek + monthOfYear + dayOfMonth + year)
-todaysDateFunction('Monday ', 'February ', '10th ', '2025 ')  
+todaysDateFunction('Wednesday ', 'April ', '2nd ', '2025 ')  
 
 # I created a function called 'whereAmITraveling' and passed the arguments 'destination' and 'holiday'.
 def whereAmITraveling(destination, holiday):
   #  I am printing a statement explaning where I am traveling and why.
    print("I am traveling to " + destination + " for " + holiday)
 # then I am passing the string brooklyn and President's Day. 
-whereAmITraveling("Showtime Martial Arts", "President's Day Weekend")   
+whereAmITraveling("College Park", "Fraternitas")   
 
 # Arbitrary Arguments (*args)
 # If you do not know how many arguments that will be passed into the function, an asterisk (*) can be placed before the parameter name in the function's definition. This feature allows Python to accomodate function calls with any variable number of arguments.
