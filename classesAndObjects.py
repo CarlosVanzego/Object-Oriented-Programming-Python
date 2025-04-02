@@ -29,7 +29,7 @@ class Student:
 
 # I created an instance of the 'Student' class and assigned it to the variable 'studentObject'.
 # I passed the arguments "Carlos" (name) and 28 (age) to the constructor.
-studentObject = Student("KingLos", 400)
+studentObject = Student("Carlos", 444)
 
 # I then print the 'name' attribute of 'studentObject'.
 print(studentObject.name)
