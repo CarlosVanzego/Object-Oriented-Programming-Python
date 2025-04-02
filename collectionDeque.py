@@ -25,3 +25,4 @@ print(first_deque)
 # Add multiple elements at the right end.
 first_deque.extend([6, 7, 8])
 print(first_deque)
+
