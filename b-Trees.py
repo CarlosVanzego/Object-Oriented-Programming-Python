@@ -9,5 +9,5 @@
 # Rule 4: The number of subtrees below a non-leaf node is always one more than the number of elements in the node. Subtree 0, subtree 1, ...
 # Rule 5: For any non-leaf node:
   # An element at index i is greater than all the elements in the subtree number i of the node, and
-  #  An element at i is less than all the elemetns in the subtree number i + 1 of the node.
+  # An element at i is less than all the elemetns in the subtree number i + 1 of the node.
 # Rule 6: Every leaf in a B-tree has the same depth, ensuring the tree remains balanced.
