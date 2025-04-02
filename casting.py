@@ -3,10 +3,10 @@
 # If you want to specify the data type of a variable, this can be done with casting.
 # You can overwrite the default data type with the data type of your choice. However, attempting to convert incompatible values, such as converting the string 'Messi' into an integer, will result in an error.
 # 
-# I'm converting the integer 4 into a string.
-y = str('four')
+# I'm converting the integer 2 into a string.
+y = str(2)
 # Then I am printing the type of 'y', which will now be <class 'str'>.
-print(type('four'))
+print(type(2))
 # I'm converting the integer 3 explicitly into an integer (redundant but shows casting).
 z = int(3.6)
 # Then i'm printing the type of 'y', which remains <class 'int'>.
