@@ -6,7 +6,7 @@
 # Ex.
 # 
 # 
-# creating a dictionary
+# Creating a dictionary
 hashMap = {}
 
 # Setting a key-value pair
