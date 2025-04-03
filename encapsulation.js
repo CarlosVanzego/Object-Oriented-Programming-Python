@@ -35,4 +35,4 @@ let employee = {
 employee.getWage();
 
 // This is better because the 'getWage' function has no parameters. In the procedural example the same fucntion had 3 parameters; In the OOP example all 3 of the original parameters are not modeled as properties of the 1 employee object; All the properties, and the getWage function are related, so they are a part of one unit.
-//  When you write in an OOP way, your functions have fewer parameters, which is ideal because this is easier to use and maintain.
+// When you write in an OOP way, your functions have fewer parameters, which is ideal because this is easier to use and maintain.
