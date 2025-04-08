@@ -33,7 +33,7 @@ for x in wands:
     print(x)
 
 
-drinks = ["Tea", "Coffee", "Water"] 
+drinks = ["Tea", "Coffee", "Water", "Whisky"] 
 for x in drinks:
     print(x)
 
@@ -46,6 +46,10 @@ for x in pizzaToppings:
 chargerColors = ["white", "black", "grey"]   
 for x in chargerColors:
     print(x) 
+
+shows = ["Invincible", "The Boys", "The Umbrella Academy"]
+for x in shows:
+    print(x)
 
 # this is a list I called 'berries'; inside I stored various types of berries. 
 berries = ["strawberries", "raspberries", "blackberries"] 
