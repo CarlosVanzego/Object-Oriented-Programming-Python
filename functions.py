@@ -11,11 +11,11 @@ def draw_square():
 
     draw_square()
 
-def function_add(a, b):
-    s = a + b
-    return s  
+def add_function(a, b):
+    t = a + b
+    return t  
 
-print(function_add(2, 4)) 
+print(add_function(2, 4)) 
 
 def multiplication_function():
     t = 4 * 4
@@ -44,4 +44,10 @@ def havingAConversartion(talk, person):
 
     
     havingAConversartion()
+
+
+def pickAMovie():
+    platform = "Netflix"
+    genre = "Horror"
+    movie = "Get Out"
 
