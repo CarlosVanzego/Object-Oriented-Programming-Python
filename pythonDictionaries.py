@@ -12,28 +12,9 @@
 # Ex.
 # 
 sampleDict = {
-  "sport": "Football",
-  "athlete": "Lamar Jackson",
-  "team": "Baltimore Ravens"
-  }
-
-print(sampleDict["athlete"])
-
-
-
-sampleDict = {
-  "sport": "tennis",
-  "player": "Serena Williams",
+  "sport": "basketball",
+  "player": "Lebron James",
+  "team": "Los Angeles Lakers"
 }
 
-sampleDict["age"] = 43
-print(sampleDict)
-
-
-electionDict = {
-  "party": "democrat",
-  "candidate": "kamala harris🔵",
-  "party2": "republican",
-  "candidate2": "donald trump🔴"
-}
-print(electionDict)
+print(sampleDict["hometown"])
