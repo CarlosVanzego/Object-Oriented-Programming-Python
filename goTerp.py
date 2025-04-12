@@ -5,7 +5,7 @@
 import turtle
 
 
-# Then I'm creating a new window for the turtle to draw in using a variable I called "screen" and assigning it to the "Screen" method from the turtle" module.
+# Then I'm creating a new window for the turtle to draw in using a variable I called "screen" and assigning it to the "Screen" method from the turtle module.
 screen = turtle.Screen()
 # I'm setting the background color of the window to "black" by using the 'bgcolor', this stands for "background color" and is performed by python's "turtle" module; '.tracer' is a method that I am using to turn the turtle animation on.
 screen.tracer(1)
